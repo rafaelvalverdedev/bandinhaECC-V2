@@ -16,8 +16,8 @@
 
 body {
     margin: 0;
-    font-family: Calibri, Arial, sans-serif;
     background: var(--bg);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* GRID */
@@ -33,19 +33,21 @@ body {
     min-width: 400px;
 }
 
-.col-header {  /* Seção (SEXTA, SÁBADO, DOMINGO */ 
+.col-header {
+    /* Seção (SEXTA, SÁBADO, DOMINGO */
     background: var(--blue);
     color: #fff;
     padding: 10px 12px;
     text-align: center;
-    font-weight: 800;
-    font-size: 20px;;
+    font-weight: 700;
+    font-size: 20px;
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
-.section-row { /* Seção (PÁTIO, PLENÁRIO, etc) */
+.section-row {
+    /* Seção (PÁTIO, PLENÁRIO, etc) */
     display: grid;
     grid-template-columns: 48px 1fr 44px 48px;
     align-items: center;
@@ -54,7 +56,8 @@ body {
     text-align: center;
 }
 
-.row { /* MÚSICA */
+.row {
+    /* MÚSICA */
     display: grid;
     grid-template-columns: 10px 1fr 44px 48px;
     align-items: center;
@@ -82,8 +85,8 @@ body {
 }
 
 .title {
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .right {
@@ -103,13 +106,14 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    font-weight: 600;
+    font-weight: 500;
     gap: 2px;
 }
 
 .title-note {
-    font-weight: 900;
+    font-weight: 700;
 }
+
 .title-main {
     overflow: hidden;
     text-overflow: ellipsis;
