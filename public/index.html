@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Programação de Músicas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <main class="app">
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </main>
+
+  <!-- Modal do player -->
+  <div id="modal" class="modal-backdrop hidden" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal__header">
+        <h2 id="modalTitle">Reprodutor</h2>
+        <button id="btnClose" class="btn--ghost" aria-label="Fechar modal">✕ Fechar</button>
+      </div>
+
+      <div class="modal__body">
+        <div class="track-info">
+          <div id="trackTitle" class="track-title"></div>
+          <div id="trackMeta" class="modal__meta"></div>
+        </div>
+        <!-- ÚNICO elemento de áudio do app -->
+        <audio id="audio" preload="metadata" controls style="width:100%"></audio>
+      </div>
+    </div>
+  </div>
+
+  <script src="musicas.js"></script>
+  <script src="app.js" defer></script>
+</body>
+
+</html>
