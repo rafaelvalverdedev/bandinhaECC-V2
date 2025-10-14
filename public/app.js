@@ -65,8 +65,7 @@ function render() {
 
       r.innerHTML = `
         <div class="cell time">${it.time || ""}</div>
-        <div class="cell titleContent"> ${playIcon} <span class="title-text">${titleContent}</span>
-        </div>
+        <div class="cell titleContent"> ${playIcon} <span class="title-text">${titleContent}</span></div>
         <div class="cell right">${it.tone || ""}</div>
         <div class="cell right">${it.page ?? ""}</div>
       `;

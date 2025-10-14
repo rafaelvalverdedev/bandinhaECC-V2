@@ -67,7 +67,7 @@ body {
 /* MÚSICA */
 .row {
     display: grid;
-    grid-template-columns: 64px 1fr 44px 48px;
+    grid-template-columns: 10px 1fr 44px 48px;
     align-items: center;
     min-height: 40px;
     border-top: 1px solid var(--line);
