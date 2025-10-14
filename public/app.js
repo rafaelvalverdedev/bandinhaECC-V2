@@ -37,7 +37,7 @@ function render() {
           <div class="cell time">${it.time || ""}</div>
           <div class="cell title">${it.label}</div>
           <div class="cell right">${it.duration || ""}</div>
-          <div class="cell right">${idx === 0 && it.pagHead ? it.pagHead : ""}</div>
+          <div class="cell right">${it.pagHead}</div>
         `;
         colEl.appendChild(s);
         return;
@@ -47,7 +47,7 @@ function render() {
       if (it.type === "note") {
         const n = document.createElement("div");
         n.className = "note-row";
-        n.innerHTML = `<div class="cell title-main">${it.label}</div>`;
+        n.innerHTML = `<div class="cell title-note">${it.label}</div>`;
         colEl.appendChild(n);
         return;
       }
@@ -64,9 +64,9 @@ function render() {
         : `<div class="title-main">${it.title}</div>`;
 
       r.innerHTML = `
-        <div class="cell time">${it.time || ""}</div>
+        <div class="cell time">${it.time}</div>
         <div class="cell titleContent"> ${playIcon} <span class="title-text">${titleContent}</span></div>
-        <div class="cell right">${it.tone || ""}</div>
+        <div class="cell right">${it.tone}</div>
         <div class="cell right">${it.page ?? ""}</div>
       `;
 

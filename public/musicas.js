@@ -151,7 +151,7 @@ const COLUMNS = [
         "id": "sa-sec-1",
         "time": "08:00",
         "label": "PÁTIO",
-        "duration": "30:00",
+        "duration": "TOM",
         "pagHead": "PAG"
       },
       {
@@ -249,7 +249,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "08:20",
         "label": "do PÁTIO para PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-11",
@@ -266,7 +267,8 @@ const COLUMNS = [
         "time": "08:30",
         "label": "PLENÁRIO (Oração da Manhã)",
         "lyrics": " - ",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-12",
@@ -281,7 +283,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "09:20",
         "label": "do PÁTIO para CÍRCULO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-13",
@@ -297,7 +300,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "10:00",
         "label": "do CÍRCULO  para PÁTIO",
-        "duration": ""
+         "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-14",
@@ -313,7 +317,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "10:10",
         "label": "PÁTIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-15",
@@ -383,7 +388,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "10:30",
         "label": "do PÁTIO para PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-22",
@@ -399,7 +405,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "11:40",
         "label": "PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-23",
@@ -415,7 +422,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "11:45",
         "label": "do PLENÁRIO para CONVERSA A DOIS",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-24",
@@ -431,7 +439,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "12:10",
         "label": "CONVERSA A DOIS para ALMOÇO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-25",
@@ -471,7 +480,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "13:40",
         "label": "ALMOÇO para CÍRCULO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-28",
@@ -496,7 +506,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "14:05",
         "label": "do CÍRCULO para PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-30",
@@ -512,7 +523,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "15:40",
         "label": "do PLENÁRIO para CÍRCULO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-31",
@@ -528,7 +540,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "16:05",
         "label": "CONVERSA A DOIS para PÁTIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-32",
@@ -544,7 +557,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "16:10",
         "label": "PÁTIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-33",
@@ -614,7 +628,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "16:25",
         "label": "do PÁTIO para PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-40",
@@ -630,7 +645,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "16:35",
         "label": "PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-41",
@@ -646,7 +662,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "17:30",
         "label": "do PLENÁRIO para CÍRCULO ",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-42",
@@ -662,7 +679,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "18:05",
         "label": "do CÍRCULO para PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-43",
@@ -678,7 +696,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "19:20",
         "label": "do PLENÁRIO para JANTAR",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-44",
@@ -694,7 +713,8 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "20:50",
         "label": "do JANTAR para PLENÁRIO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-45",
@@ -777,7 +797,8 @@ const COLUMNS = [
         "id": "dg-sec-2",
         "time": "08:25",
         "label": "da Quadra para PÁTIO",
-        "duration": "20:00"
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "dg-07",
