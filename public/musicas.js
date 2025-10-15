@@ -300,7 +300,7 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "10:00",
         "label": "do CÍRCULO  para PÁTIO",
-         "duration": "TOM",
+        "duration": "TOM",
         "pagHead": "PAG"
       },
       {
@@ -787,7 +787,7 @@ const COLUMNS = [
         "id": "dg-06",
         "time": "",
         "title": "Noites traiçoeiras",
-        "lyrics": "Jesus está aqui nesse momento. Sua presença",
+        "lyrics": "Jesus está aqui nesse momento. Sua presença é real em meu viver",
         "tone": "D",
         "page": 25,
         "url": ""
