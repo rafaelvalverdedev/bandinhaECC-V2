@@ -1316,7 +1316,7 @@ const COLUMNS = [
         "lyrics": "Há uma luz que acende em todo nós",
         "tone": "D",
         "page": 9,
-        "url": ""
+        "url": "audio/ha-uma-luz.mp3"
       },
       {
         "type": "section",
