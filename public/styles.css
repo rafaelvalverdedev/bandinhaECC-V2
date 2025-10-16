@@ -304,6 +304,11 @@ body {
         background: #ffffff;
     }
 
+    .row {
+        min-height: 30px;
+    }
+
+
     .col-header,
     .section-row,
     .note-row,
