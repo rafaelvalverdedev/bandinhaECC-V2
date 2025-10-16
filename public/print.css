@@ -1,0 +1,51 @@
+@media print {
+    * {
+        font-size: 8px;
+    }
+    
+    /* Força impressão em paisagem */
+    @page {
+        size: A4 landscape;
+        margin: 5mm;
+    }
+    
+    /* Mantém o layout de colunas */
+    .grid {
+        background: #ffffff;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        gap: 5px !important;
+        align-items: flex-start;
+        
+    }
+    
+    .column {
+        flex: 1 1 33%;
+        min-width: auto !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    
+    /* Evita que headers fiquem sticky na impressão */
+    .col-header {
+        position: static !important;
+        background: var(--blue) !important;
+        color: white !important;
+    }
+    
+    /* Ajusta cores para impressão */
+    .section-row,
+    .row,
+    .note-row {
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        background: var(--blue2);
+        color: black !important;
+        border-color: #b6b4b4 !important;
+    }
+
+    .title-lyrics {
+        color: var(--lyrics);
+    }
+
+}

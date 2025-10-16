@@ -18,6 +18,7 @@ body {
     margin: 0;
     background: var(--bg);
     font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
 }
 
 /* GRID */
@@ -40,7 +41,7 @@ body {
     padding: 10px 12px;
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -49,7 +50,7 @@ body {
 .section-row {
     /* Seção (PÁTIO, PLENÁRIO, etc) */
     display: grid;
-    grid-template-columns: 48px 1fr 44px 48px;
+    grid-template-columns: 45px 1fr 40px 40px;
     align-items: center;
     background: var(--blue2);
     padding: 6px 0;
@@ -59,7 +60,7 @@ body {
 .row {
     /* MÚSICA */
     display: grid;
-    grid-template-columns: 10px 1fr 44px 48px;
+    grid-template-columns: 1px 1fr 40px 40px;
     align-items: center;
     min-height: 40px;
     border-top: 1px solid var(--line);
@@ -81,16 +82,17 @@ body {
 
 .time {
     color: var(--blue);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .title {
-    font-size: 16px;
+    /* font-size: 14px; */
     font-weight: 600;
 }
 
 .right {
     text-align: center;
+    color: var(--blue);
     font-size: 12px;
 }
 
