@@ -184,7 +184,7 @@ const COLUMNS = [
       {
         "id": "sa-04",
         "time": "",
-        "title": "Desperta",
+        "title": "Quero que valorize",
         "lyrics": "Quero que valorize o que você tem",
         "tone": "Dm",
         "page": 15,
