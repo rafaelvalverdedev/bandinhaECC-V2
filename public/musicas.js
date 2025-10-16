@@ -157,20 +157,20 @@ const COLUMNS = [
       {
         "id": "sa-01",
         "time": "",
-        "title": "Bom dia amigo bom dia irmão",
+        "title": "Bom dia amigo boa noite irmão!!!",
         "lyrics": "Dê um sorriso e cante essa canção",
         "tone": "D",
         "page": 14,
-        "url": ""
+        "url": "audio/boa-noite-amigo.mp3"
       },
       {
         "id": "sa-02",
         "time": "",
-        "title": "Celebrai com júbilo",
+        "title": "Celebrai com jubilo",
         "lyrics": "Celebrai com jubilo ao Senhor",
         "tone": "D",
         "page": 64,
-        "url": ""
+        "url": "audio/celebrai-com-jubilo.mp3"
       },
       {
         "id": "sa-03",
