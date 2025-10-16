@@ -533,7 +533,7 @@ const COLUMNS = [
         "lyrics": "Como vai a sua vida? Como vão seus sentimentos?",
         "tone": "",
         "page": 46,
-        "url": "como-vai-a-sua-vid.m4a"
+        "url": "audio/como-vai-a-sua-vida.m4a"
       },
       {
         "type": "section",
