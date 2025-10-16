@@ -184,8 +184,8 @@ const COLUMNS = [
       {
         "id": "sa-04",
         "time": "",
-        "title": "Quero que valorize",
-        "lyrics": "Quero que valorize o que você tem",
+        "title": "Desperta",
+        "lyrics": "Levanta, sacode pó quebra as cadeias.",
         "tone": "Dm",
         "page": 15,
         "url": ""
