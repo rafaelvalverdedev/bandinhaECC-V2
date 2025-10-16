@@ -40,13 +40,13 @@ app.post("/salvar", async (req, res) => {
 
     const targetPath = path.join(publicDir, "musicas.js");
 
-    // Cria backup se o arquivo já existir
-    if (fsSync.existsSync(targetPath)) {
-      const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-      const backupPath = path.join(publicDir, `musicas.bak.${timestamp}.js`);
-      await fs.copyFile(targetPath, backupPath);
-      console.log(`Backup criado em: ${backupPath}`);
-    }
+    // // Cria backup se o arquivo já existir
+    // if (fsSync.existsSync(targetPath)) {
+    //   const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+    //   const backupPath = path.join(publicDir, `musicas.bak.${timestamp}.js`);
+    //   await fs.copyFile(targetPath, backupPath);
+    //   console.log(`Backup criado em: ${backupPath}`);
+    // }
 
     // Escreve em arquivo (sobrescreve)
     await fs.writeFile(targetPath, fileContent, "utf8");

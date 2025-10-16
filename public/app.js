@@ -102,7 +102,67 @@ function render() {
   });
 }
 
+// ======= PLAYER =======
+function openModal(track) {
+  currentTrack = track;
+
+  trackTitle.textContent = track.title;
+  const meta = [];
+  if (track.time) meta.push(`Horário: ${track.time}`);
+  if (track.tone) meta.push(`Tom: ${track.tone}`);
+  if (track.page) meta.push(`Pág: ${track.page}`);
+  trackMeta.textContent = meta.join(" · ");
+
+  audio.src = resolveUrl(track.url);
+  modal.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+
+  audio.play().then(() => {
+    rowById.get(track.id)?.classList.add("playing");
+  });
+}
+
+function closeModal() {
+  audio.pause();
+  audio.currentTime = 0;
+  modal.classList.add("hidden");
+  document.body.style.overflow = "";
+  rowById.forEach(el => el.classList.remove("playing"));
+}
+
+// Eventos do modal
+btnClose.addEventListener("click", closeModal);
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) closeModal();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) closeModal();
+});
+
+
+
+audio.addEventListener("play", () => {
+  if (currentTrack) rowById.get(currentTrack.id)?.classList.add("playing");
+});
+
+audio.addEventListener("pause", () => {
+});
+
+audio.addEventListener("ended", () => {
+  rowById.forEach(el => el.classList.remove("playing"));
+});
+
+// ======= INICIALIZAR =======
+document.addEventListener("DOMContentLoaded", render);
+
+
+
+
 // ======= EDIÇÃO =======
+// ======= EDIÇÃO =======
+// ======= EDIÇÃO =======
+
+/*
 document.addEventListener("dblclick", function (e) {
   const titleMain = e.target.closest(".title-main");
   const titleLyrics = e.target.closest(".title-lyrics");
@@ -160,55 +220,4 @@ document.addEventListener("dblclick", function (e) {
   input.addEventListener("blur", save);
 });
 
-// ======= PLAYER =======
-function openModal(track) {
-  currentTrack = track;
-
-  trackTitle.textContent = track.title;
-  const meta = [];
-  if (track.time) meta.push(`Horário: ${track.time}`);
-  if (track.tone) meta.push(`Tom: ${track.tone}`);
-  if (track.page) meta.push(`Pág: ${track.page}`);
-  trackMeta.textContent = meta.join(" · ");
-
-  audio.src = resolveUrl(track.url);
-  modal.classList.remove("hidden");
-  document.body.style.overflow = "hidden";
-
-  audio.play().then(() => {
-    rowById.get(track.id)?.classList.add("playing");
-  });
-}
-
-function closeModal() {
-  audio.pause();
-  audio.currentTime = 0;
-  modal.classList.add("hidden");
-  document.body.style.overflow = "";
-  rowById.forEach(el => el.classList.remove("playing"));
-}
-
-// Eventos do modal
-btnClose.addEventListener("click", closeModal);
-modal.addEventListener("click", (e) => {
-  if (e.target === modal) closeModal();
-});
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && !modal.classList.contains("hidden")) closeModal();
-});
-
-
-
-audio.addEventListener("play", () => {
-  if (currentTrack) rowById.get(currentTrack.id)?.classList.add("playing");
-});
-
-audio.addEventListener("pause", () => {
-});
-
-audio.addEventListener("ended", () => {
-  rowById.forEach(el => el.classList.remove("playing"));
-});
-
-// ======= INICIALIZAR =======
-document.addEventListener("DOMContentLoaded", render);
+*/
