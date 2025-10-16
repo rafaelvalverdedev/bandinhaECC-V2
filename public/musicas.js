@@ -18,7 +18,7 @@ const COLUMNS = [
         "lyrics": "Dê um sorriso e cante essa canção",
         "tone": "D",
         "page": 14,
-        "url": "audio/boa noite amigo.mp3"
+        "url": "audio/boa-noite-amigo.mp3"
       },
       {
         "id": "sx-02",
@@ -27,7 +27,7 @@ const COLUMNS = [
         "lyrics": "Celebrai com jubilo ao Senhor",
         "tone": "D",
         "page": 64,
-        "url": "audio/Celebrai com jubilo.mp3"
+        "url": "audio/celebrai-com-jubilo.mp3"
       },
       {
         "id": "sx-03",
@@ -36,7 +36,7 @@ const COLUMNS = [
         "lyrics": "Reunidos Aqui Só pra louvar ao Senhor",
         "tone": "D",
         "page": 13,
-        "url": ""
+        "url": "audio/reunidos-aquimp3"
       },
       {
         "id": "sx-04",
@@ -45,7 +45,7 @@ const COLUMNS = [
         "lyrics": "A alegria está no coração de quem já conhece a Jesus",
         "tone": "D",
         "page": 5,
-        "url": ""
+        "url": "audio/a-alegria-esta-no-coracao.mp3"
       },
       {
         "id": "sx-05",
@@ -54,7 +54,7 @@ const COLUMNS = [
         "lyrics": "Cantemos Aleluia",
         "tone": "D",
         "page": 1,
-        "url": ""
+        "url": "audio/;cantemos-aleluia.mp3"
       },
       {
         "id": "sx-06",
@@ -63,7 +63,7 @@ const COLUMNS = [
         "lyrics": "Se o meu povo que se chama pelo meu nome",
         "tone": "D",
         "page": 61,
-        "url": ""
+        "url": "audio/;se-o-meu-povo-que-se-chama.mp3"
       },
       {
         "id": "sx-07",
@@ -72,7 +72,7 @@ const COLUMNS = [
         "lyrics": "Eis que venho sem demora",
         "tone": "D",
         "page": 10,
-        "url": ""
+        "url": "audio/;eis-que-venho-sem-demora.mp3"
       },
       {
         "type": "note",
