@@ -215,7 +215,7 @@ const COLUMNS = [
         "lyrics": "A minha vida é do mestre, Meu coração é do meu",
         "tone": "D",
         "page": 54,
-        "url": ""
+        "url": "audio/a-minha-vida-e-do-mestre.mp3"
       },
       {
         "id": "sa-08",
@@ -655,7 +655,7 @@ const COLUMNS = [
         "lyrics": "Poropopo",
         "tone": "",
         "page": 59,
-        "url": ""
+        "url": "audio/poropopo.mp3"
       },
       {
         "type": "section",
