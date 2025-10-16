@@ -36,7 +36,7 @@ const COLUMNS = [
         "lyrics": "Reunidos Aqui Só pra louvar ao Senhor",
         "tone": "D",
         "page": 13,
-        "url": "audio/reunidos-aquimp3"
+        "url": "audio/reunidos-aqui.mp3"
       },
       {
         "id": "sx-04",
