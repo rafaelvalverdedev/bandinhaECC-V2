@@ -54,7 +54,7 @@ const COLUMNS = [
         "lyrics": "Cantemos Aleluia",
         "tone": "D",
         "page": 1,
-        "url": "audio/;cantemos-aleluia.mp3"
+        "url": "audio/cantemos-aleluia.mp3"
       },
       {
         "id": "sx-06",
@@ -63,7 +63,7 @@ const COLUMNS = [
         "lyrics": "Se o meu povo que se chama pelo meu nome",
         "tone": "D",
         "page": 61,
-        "url": "audio/;se-o-meu-povo-que-se-chama.mp3"
+        "url": "audio/se-o-meu-povo-que-se-chama.mp3"
       },
       {
         "id": "sx-07",
@@ -72,7 +72,7 @@ const COLUMNS = [
         "lyrics": "Eis que venho sem demora",
         "tone": "D",
         "page": 10,
-        "url": "audio/;eis-que-venho-sem-demora.mp3"
+        "url": "audio/eis-que-venho-sem-demora.mp3"
       },
       {
         "type": "note",
