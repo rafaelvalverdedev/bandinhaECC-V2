@@ -53,7 +53,7 @@ body {
     grid-template-columns: 45px 1fr 40px 40px;
     align-items: center;
     background: var(--blue2);
-    padding: 6px 0;
+    padding: 1px 0;
     text-align: center;
 }
 
@@ -275,4 +275,49 @@ body {
     background: transparent;
     color: #fff;
     cursor: pointer;
+}
+
+
+@media print {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #fff;
+    }
+
+    /* Força impressão em paisagem */
+    @page {
+        size: A4 landscape;
+        margin: 5mm;
+    }
+
+    /* Mantém o layout de colunas */
+    .grid {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        gap: 10px !important;
+        align-items: flex-start;
+        font-size: 10px;
+        background: #ffffff;
+    }
+
+    .col-header,
+    .section-row,
+    .note-row,
+    .row {
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+    }
+
+    .right {
+        font-size: 10px;
+    }
+
+    .time {
+        font-size: 10px;
+    }
+
 }
