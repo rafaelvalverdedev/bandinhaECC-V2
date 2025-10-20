@@ -465,14 +465,15 @@ const COLUMNS = [
         "id": "sa-sec-2",
         "time": "12:20",
         "label": "ALMOÇO",
-        "duration": ""
+        "duration": "TOM",
+        "pagHead": "PAG"
       },
       {
         "id": "sa-27",
         "time": "",
         "title": "Ao Senhor agradecemos essa nossa refeição",
         "lyrics": "-",
-        "tone": "",
+        "tone": "D",
         "url": ""
       },
       {
@@ -653,7 +654,7 @@ const COLUMNS = [
         "time": "",
         "title": "Ensaio do Maestro Poropopo",
         "lyrics": "Estou alegre...Poropopo",
-        "tone": "",
+        "tone": "D",
         "page": 51,
         "url": "audio/poropopo.mp3"
       },
@@ -687,7 +688,7 @@ const COLUMNS = [
         "time": "",
         "title": "Aquele que está feliz *Batida na porta*",
         "lyrics": "Aquele que está feliz diga amém",
-        "tone": "",
+        "tone": "D",
         "page": 32,
         "url": ""
       },
@@ -840,7 +841,7 @@ const COLUMNS = [
         "time": "",
         "title": "MUSICA DO BISCOITO",
         "lyrics": "Se você pensa que nós fomos embora....",
-        "tone": "",
+        "tone": "D",
         "url": "audio/musica do biscoito.mp3"
       },
       {
@@ -1045,7 +1046,7 @@ const COLUMNS = [
         "time": "",
         "title": "Ensaio do Maestro Poropopo",
         "lyrics": "Estou alegre...Poropopo",
-        "tone": "",
+        "tone": "D",
         "page": 51,
         "url": "audio/poropopo.mp3"
       },
@@ -1079,7 +1080,7 @@ const COLUMNS = [
         "time": "",
         "title": "Ao Senhor agradecemos essa nossa refeição",
         "lyrics": " - ",
-        "tone": "",
+        "tone": "D",
         "url": ""
       },
       {
@@ -1087,7 +1088,7 @@ const COLUMNS = [
         "time": "",
         "title": "Pensando que cachaça é agua / Batida de Coco",
         "lyrics": " - ",
-        "tone": "",
+        "tone": "D",
         "url": ""
       },
       {
@@ -1095,7 +1096,7 @@ const COLUMNS = [
         "time": "",
         "title": "A turma da cozinha é animada",
         "lyrics": " - ",
-        "tone": "",
+        "tone": "D",
         "url": "audio/a turma da cozinha e animada.mp3"
       },
       {
@@ -1103,7 +1104,7 @@ const COLUMNS = [
         "time": "",
         "title": "Musica do Parabens para você",
         "lyrics": " - ",
-        "tone": "",
+        "tone": "D",
         "url": ""
       },
       {
@@ -1119,7 +1120,7 @@ const COLUMNS = [
         "time": "",
         "title": "Beijinho Doce",
         "lyrics": " - ",
-        "tone": "",
+        "tone": "D",
         "url": ""
       },
       {
