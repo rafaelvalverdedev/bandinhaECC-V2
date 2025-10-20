@@ -471,7 +471,7 @@ const COLUMNS = [
       {
         "id": "sa-27",
         "time": "",
-        "title": "ZZZZZZZZZZZZZZAo Senhor agradecemos essa nossa refeição",
+        "title": "Ao Senhor agradecemos essa nossa refeição",
         "lyrics": "-",
         "tone": "D",
         "url": ""
