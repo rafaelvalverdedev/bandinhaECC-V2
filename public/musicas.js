@@ -59,7 +59,7 @@ const COLUMNS = [
       {
         "id": "sx-06",
         "time": "",
-        "title": "Se o meu pove",
+        "title": "Se o meu povo",
         "lyrics": "Se o meu povo que se chama pelo meu nome",
         "tone": "D",
         "page": 53,
