@@ -58,7 +58,7 @@ function render() {
       r.setAttribute("data-id", it.id);
       if (!it.url) r.classList.add("no-url");
 
-      const playIcon = `<span class="play-icon">
+      const playIcon = `<span class="play-icon"">
 
       <svg   width="24"   height="24"   viewBox="0 0 24 24"  fill="none"  xmlns="http://www.w3.org/2000/svg">
         <path
@@ -79,11 +79,8 @@ function render() {
         <div class="cell right">${it.page ?? ""}</div>
       `;
 
-      // Evento de play
-      if (it.url) {
-        const playIconEl = r.querySelector(".play-icon");
-        playIconEl.addEventListener("click", () => openModal(it));
-      }
+      const playIconEl = r.querySelector(".play-icon");
+      playIconEl.addEventListener("click", () => openModal(it));
 
       rowById.set(it.id, r);
       colEl.appendChild(r);
@@ -95,13 +92,15 @@ function render() {
 
 // ======= PLAYER =======
 function openModal(track) {
+
   currentTrack = track;
 
   trackTitle.textContent = track.title;
   const meta = [];
   if (track.time) meta.push(`Horário: ${track.time}`);
   if (track.tone) meta.push(`Tom: ${track.tone}`);
-  if (track.page) meta.push(`Pág: ${track.page}`);
+  if (track.page) meta.push(`Pág: ${track.page} ${track.url ? '' : '— Música ainda sem áudio —'}`);
+
   trackMeta.textContent = meta.join(" · ");
 
   audio.src = resolveUrl(track.url);
@@ -111,14 +110,25 @@ function openModal(track) {
   audio.play().then(() => {
     rowById.get(track.id)?.classList.add("playing");
   });
+
+  letraModal.classList.add("hidden");
+  document.body.style.overflow = "";
 }
 
 function closeModal() {
   audio.pause();
+
+
+  modal.classList.add("hidden");
+  modal.setAttribute("aria-hidden", "true");
+
+
   audio.currentTime = 0;
   modal.classList.add("hidden");
   document.body.style.overflow = "";
   rowById.forEach(el => el.classList.remove("playing"));
+
+
 }
 
 // Eventos do modal
@@ -212,3 +222,55 @@ document.addEventListener("dblclick", function (e) {
 });
 
 */
+
+
+
+// ======= MODAL DE LETRA =======
+
+// Elementos do modal de letra
+const btnLetra = document.getElementById("btn-letra");
+const letraModal = document.getElementById("letra-modal");
+const btnCloseLetra = document.getElementById("btn-close-letra");
+const letraTitle = document.getElementById("letra-title");
+const letraText = document.getElementById("letra-text");
+
+// Abre o modal de letra
+btnLetra.addEventListener("click", () => {
+  if (!currentTrack) return;
+
+  // Função para buscar a letra pela página e título
+  function getLetraPorNumeroETitulo(pagina, titulo) {
+    const tituloNormalizado = titulo.trim().toLowerCase();
+
+    for (const grupo of LETRAS) {
+      const musica = grupo.cancoes.find(c =>
+        c.pagina === pagina &&
+        c.titulo.trim().toLowerCase() === tituloNormalizado
+      );
+      if (musica) return musica;
+    }
+    return null;
+  }
+
+  const musica = getLetraPorNumeroETitulo(currentTrack.page, currentTrack.title);
+
+  if (musica) {
+    letraTitle.textContent = musica.titulo;
+    letraText.textContent = musica.letra.join("\n");
+  } else {
+    letraTitle.textContent = "Letra não encontrada";
+    letraText.textContent = "";
+  }
+
+  letraModal.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+
+    letraModal.scrollTop = 0;
+  letraText.scrollTop = 0;
+});
+
+// Fecha o modal de letra
+btnCloseLetra.addEventListener("click", () => {
+  letraModal.classList.add("hidden");
+  document.body.style.overflow = "";
+});

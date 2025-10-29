@@ -8,7 +8,7 @@
   <!-- Link no <head> do seu HTML -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
@@ -29,13 +29,25 @@
           <div class="track-info">
             <div id="trackTitle" class="track-title"></div>
             <div id="trackMeta" class="modal__meta"></div>
+            <button id="btn-letra">Ver Letra</button>
+
           </div>
           <!-- ÚNICO elemento de áudio do app -->
           <audio id="audio" preload="metadata" controls style="width:100%"></audio>
         </div>
+
+        <!-- Modal da Letra -->
+        <div id="letra-modal" class="modal hidden">
+          <div class="modal-content">
+            <button id="btn-close-letra">x</button>
+            <h2 id="letra-title"></h2>
+            <pre id="letra-text"></pre>
+          </div>
+        </div>
       </div>
     </div>
 
+    <script src="letras-musicas.js"></script>
     <script src="musicas.js"></script>
     <script src="app.js" defer></script>
 
