@@ -1,56 +1,148 @@
+<!-- =======================================================================
+     ARQUIVO: index.html
+     OBJETIVO: Estrutura principal do site/programa de músicas
+     OBS: Comentado linha por linha para fins de aprendizado.
+     ======================================================================= -->
+
 <!doctype html>
 <html lang="pt-BR">
+<!--
+    <!doctype html> → Indica ao navegador que este documento usa HTML5.
+    <html lang="pt-BR"> → Define o idioma principal da página (português do Brasil).
+    O atributo 'lang' é importante para acessibilidade e SEO.
+-->
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>V2 Programação de Músicas</title>
-  <!-- Link no <head> do seu HTML -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
+    <!-- <head> contém metadados, estilos, título e links externos. -->
+
+    <!-- Define o conjunto de caracteres da página. UTF-8 permite acentos e emojis. -->
+    <meta charset="utf-8" />
+
+    <!-- Configura a escala inicial e largura da viewport (importante para mobile). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Título exibido na aba do navegador -->
+    <title>V2 Programação de Músicas</title>
+
+    <!--
+        Importa uma fonte do Google Fonts.
+        - 'Noto Sans' é usada em todo o projeto (definida no CSS).
+        - O link carrega pesos diferentes (100 até 900).
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Importa o arquivo de estilos local (styles.css) -->
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
+<!--
+    O corpo (<body>) contém tudo que aparece visualmente na página:
+    grid principal, modais, botões, e scripts no final.
+-->
 
-  <main">
-    <div id="grid" class="grid" aria-live="polite"></div>
+    <!-- 
+        <main> → Tag semântica que indica o conteúdo principal da página.
+        O "aria-live='polite'" permite leitores de tela atualizarem o conteúdo
+        dinamicamente sem interromper o usuário (importante para acessibilidade).
+    -->
+    <main>
+        <div id="grid" class="grid" aria-live="polite"></div>
     </main>
 
-    <!-- Modal do player -->
-    <div id="modal" class="modal-backdrop hidden" aria-hidden="true">
-      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-        <div class="modal__header">
-          <h2 id="modalTitle">Reprodutor</h2>
-          <button id="btnClose" class="btn--ghost" aria-label="Fechar modal">✕ Fechar</button>
-        </div>
+    <!-- ===================================================================
+         MODAL DO PLAYER DE ÁUDIO
+         Este bloco é mostrado quando o usuário clica no ícone de "play".
+         =================================================================== -->
+    <div id="modal" class="modal-backdrop hidden">
 
-        <div class="modal__body">
-          <div class="track-info">
-            <div id="trackTitle" class="track-title"></div>
-            <div id="trackMeta" class="modal__meta"></div>
-            <button id="btn-letra">Ver Letra</button>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <!--
+                .modal: caixa branca que aparece no centro.
+                role="dialog" → indica que é uma janela modal.
+                aria-modal="true" → informa que é modal (bloqueia o restante).
+                aria-labelledby="modalTitle" → conecta o título principal.
+            -->
 
-          </div>
-          <!-- ÚNICO elemento de áudio do app -->
-          <audio id="audio" preload="metadata" controls style="width:100%"></audio>
-        </div>
+            <!-- Cabeçalho do modal -->
+            <div class="modal__header">
+                <!-- O título (lido por leitores de tela) -->
+                <h2 id="modalTitle">Reprodutor</h2>
 
-        <!-- Modal da Letra -->
-        <div id="letra-modal" class="modal hidden">
-          <div class="modal-content">
-            <button id="btn-close-letra">x</button>
-            <h2 id="letra-title"></h2>
-            <pre id="letra-text"></pre>
-          </div>
-        </div>
-      </div>
-    </div>
+                <!-- Botão para fechar o modal -->
+                <button id="btnClose" class="btn--ghost" aria-label="Fechar modal">✕ Fechar</button>
+                <!--
+                    - id="btnClose" → identificado no JavaScript (para adicionar evento de clique).
+                    - class="btn--ghost" → estilo sem fundo (transparente).
+                    - aria-label → acessibilidade, descreve o botão para leitores de tela.
+                -->
+            </div>
 
+            <!-- Corpo principal do modal -->
+            <div class="modal__body">
+                <div class="track-info">
+                    <!-- 
+                        Estes elementos são atualizados dinamicamente via JavaScript.
+                        Quando o usuário clica em uma música, o JS preenche o título e meta-informações.
+                    -->
+                    <div id="trackTitle" class="track-title"></div>   <!-- Nome da música -->
+                    <div id="trackMeta" class="modal__meta"></div>   <!-- Horário, tom, página -->
+
+                    <!-- Botão que abre o modal de letras -->
+                    <button id="btn-letra">Ver Letra</button>
+                </div>
+
+                <!-- 
+                    ÚNICO elemento <audio> da página.
+                    - preload="metadata" → carrega apenas as informações básicas (não o áudio completo).
+                    - controls → exibe os botões de play/pause padrão do navegador.
+                    - style="width:100%" → ocupa a largura total do modal.
+                -->
+                <audio id="audio" preload="metadata" controls style="width:100%"></audio>
+            </div>
+
+            <!-- ===================================================================
+                 MODAL DE LETRA DA MÚSICA
+                 Este modal é aberto dentro do modal principal do player.
+                 Ele exibe o texto completo da música.
+                 =================================================================== -->
+            <div id="letra-modal" class="modal hidden">
+                <!--
+                    O modal de letra é inicialmente "hidden".
+                    É controlado pelo arquivo lyrics.js.
+                -->
+                <div class="modal-content">
+                    <!-- Botão de fechar (um "x" pequeno no canto superior direito) -->
+                    <button id="btn-close-letra">x</button>
+
+                    <!-- Título da música (preenchido via JavaScript) -->
+                    <h2 id="letra-title"></h2>
+
+                    <!-- 
+                        <pre> preserva quebras de linha e espaços.
+                        O texto da letra é inserido via JS dentro desse elemento.
+                    -->
+                    <pre id="letra-text"></pre>
+                </div>
+            </div> <!-- Fim do modal de letra -->
+        </div> <!-- Fim do modal principal -->
+    </div> <!-- Fim do backdrop -->
+
+    <!-- ===================================================================
+         SCRIPTS (executados no final do body)
+         =================================================================== -->
+
+    <!--
+        O navegador carrega estes arquivos na ordem em que aparecem.
+        1. letras-musicas.js → contém o array LETRAS (letras das músicas)
+        2. musicas.js → contém o array COLUMNS (estrutura da programação)
+        3. main.js → ponto de entrada, que importa os módulos JS.
+           O atributo type="module" é necessário para usar 'import' e 'export'.
+    -->
     <script src="letras-musicas.js"></script>
     <script src="musicas.js"></script>
-    <script src="app.js" defer></script>
+    <script type="module" src="./js/main.js"></script>
 
 </body>
-
 </html>

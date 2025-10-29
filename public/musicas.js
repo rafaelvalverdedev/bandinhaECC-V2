@@ -824,7 +824,7 @@ const COLUMNS = [
         "title": "PODEROSO DEUS",
         "lyrics": "Ao que está assentado no trono. E ao cordeiro",
         "tone": "D",
-        "page": 36,
+        "page": 35,
         "url": ""
       },
       {

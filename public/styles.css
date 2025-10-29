@@ -1,14 +1,49 @@
+/* =============================================================
+   ARQUIVO: styles.css
+   OBJETIVO: centralizar todas as cores em variáveis no :root
+   ============================================================= */
+
+/* 
+  :root é o "escopo global" das variáveis CSS.
+  Tudo definido aqui pode ser reutilizado em qualquer seletor do CSS.
+*/
 :root {
-    --bg: #dddee0;
-    --ink: #111827;
-    --muted: #6b7280;
-    --line: #d8dfe9;
-    --blue: #1c4587;
-    --blue2: #9fc5e8;
-    --hover: #e4e7ec;
-    --playing: #e7f3ff;
-    --lyrics: #2E75B6;
+    /* 🎨 Cores principais da identidade visual */
+    --color-bg: #dddee0;          /* cor de fundo principal da página */
+    --color-ink: #111827;         /* cor padrão do texto */
+    --color-muted: #6b7280;       /* texto secundário / meta */
+    --color-line: #d8dfe9;        /* linhas de grade e bordas suaves */
+    --color-blue: #1c4587;        /* azul principal (títulos e botões) */
+    --color-blue2: #9fc5e8;       /* azul mais claro (seções e destaques) */
+    --color-hover: #e4e7ec;       /* fundo ao passar o mouse */
+    --color-playing: #e7f3ff;     /* fundo de música tocando */
+    --color-lyrics: #2E75B6;      /* cor do subtítulo (trecho da letra) */
+
+    /* 🧩 Cores de feedback e status */
+    --color-danger-bg: #fee2e2;   /* usado para músicas sem áudio (vermelho suave) */
+
+    /* 🎛️ Cores de elementos interativos */
+    --color-btn-bg: #fff;         /* cor base de botões normais */
+    --color-btn-hover-bg: #e4e7ec;/* fundo do botão ao passar o mouse */
+    --color-btn-ghost: transparent; /* botões transparentes */
+
+    /* 🔳 Cores de modais e sombras */
+    --color-modal-bg: #fff;       /* fundo principal dos modais */
+    --color-modal-shadow: rgba(0, 0, 0, 0.3); /* sombra padrão do modal */
+    --color-backdrop: rgba(0, 0, 0, 0.55);    /* fundo escuro atrás do modal */
+
+    /* 🌟 Cores de botões específicos */
+    --color-btn-close-bg: #f0f0f0;
+    --color-btn-close-hover: var(--color-blue);
+    --color-btn-close-text: #333;
+    --color-btn-primary-bg: var(--color-blue);
+    --color-btn-primary-hover: #2980b9;
+    --color-btn-primary-focus: rgba(52, 152, 219, 0.4);
 }
+
+/* =============================================================
+   REGRAS GERAIS
+   ============================================================= */
 
 * {
     box-sizing: border-box;
@@ -16,12 +51,16 @@
 
 body {
     margin: 0;
-    background: var(--bg);
+    background: var(--color-bg);
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
+    color: var(--color-ink);
 }
 
-/* GRID */
+/* =============================================================
+   GRID PRINCIPAL
+   ============================================================= */
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -35,8 +74,7 @@ body {
 }
 
 .col-header {
-    /* Seção (SEXTA, SÁBADO, DOMINGO */
-    background: var(--blue);
+    background: var(--color-blue);
     color: #fff;
     padding: 10px 12px;
     text-align: center;
@@ -48,31 +86,29 @@ body {
 }
 
 .section-row {
-    /* Seção (PÁTIO, PLENÁRIO, etc) */
     display: grid;
     grid-template-columns: 45px 1fr 40px 40px;
     align-items: center;
-    background: var(--blue2);
+    background: var(--color-blue2);
     padding: 1px 0;
     text-align: center;
 }
 
 .row {
-    /* MÚSICA */
     display: grid;
     grid-template-columns: 1px 1fr 40px 40px;
     align-items: center;
     min-height: 40px;
-    border-top: 1px solid var(--line);
+    border-top: 1px solid var(--color-line);
     background: #fff;
 }
 
 .row:hover {
-    background: var(--hover);
+    background: var(--color-hover);
 }
 
 .row.playing {
-    background: var(--playing);
+    background: var(--color-playing);
 }
 
 .cell {
@@ -81,20 +117,19 @@ body {
 }
 
 .time {
-    color: var(--blue);
+    color: var(--color-blue);
     font-size: 12px;
-}
-
-.title {
-    /* font-size: 14px; */
-    font-weight: 600;
 }
 
 .right {
     text-align: center;
-    color: var(--blue);
+    color: var(--color-blue);
     font-size: 12px;
 }
+
+/* =============================================================
+   TÍTULOS E LETRAS
+   ============================================================= */
 
 .titleContent {
     display: flex;
@@ -102,7 +137,6 @@ body {
     gap: 8px;
 }
 
-/* TÍTULO */
 .title-text {
     flex: 1;
     display: flex;
@@ -123,20 +157,23 @@ body {
 }
 
 .title-lyrics {
-    color: var(--lyrics);
+    color: var(--color-lyrics);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-/* ÍCONE PLAY */
+/* =============================================================
+   ÍCONE DE PLAY
+   ============================================================= */
+
 .play-icon {
     width: 32px;
     height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--blue2);
+    color: var(--color-blue2);
     cursor: pointer;
     font-size: 16px;
 }
@@ -145,66 +182,50 @@ body {
     animation: pulse 1.5s infinite;
 }
 
-.row.playing {
-    background: #1647a3;
-    animation: pulse 1.5s infinite;
-}
-
 @keyframes pulse {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.7;
-    }
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
 }
 
+/* =============================================================
+   LINHAS DE NOTA E ERRO
+   ============================================================= */
 
-
-
-/* NOTA */
 .note-row {
     min-height: 40px;
-    border-top: 1px solid var(--line);
+    border-top: 1px solid var(--color-line);
     background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 6px 10px;
-}
-
-.note-row {
     text-transform: uppercase;
 }
 
-
 .row.no-url:hover {
-    background: #fee2e2;
+    background: var(--color-danger-bg);
 }
 
 .row.no-url .play-icon {
-    opacity: 0.1;
+    opacity: 0.4;
 }
 
-.row.no-url .play-icon {
-  position: relative;
-  opacity: 0.4;
-}
+/* =============================================================
+   CAMPOS DE EDIÇÃO
+   ============================================================= */
 
-
-/* EDIÇÃO */
 .edit-input {
     font: inherit;
     padding: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-line);
     border-radius: 4px;
     width: 100%;
 }
 
-/* MODAL */
+/* =============================================================
+   MODAIS (PLAYER E LETRA)
+   ============================================================= */
+
 .hidden {
     display: none !important;
 }
@@ -212,7 +233,7 @@ body {
 .modal-backdrop {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.55);
+    background: var(--color-backdrop);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,14 +243,14 @@ body {
 
 .modal {
     width: min(500px, 100%);
-    background: #fff;
+    background: var(--color-modal-bg);
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 24px 60px var(--color-modal-shadow);
 }
 
 .modal__header {
-    background: var(--blue);
+    background: var(--color-blue);
     color: #fff;
     padding: 12px 16px;
     display: flex;
@@ -250,52 +271,136 @@ body {
 }
 
 .modal__meta {
-    color: var(--muted);
+    color: var(--color-muted);
     font-size: 0.9rem;
 }
 
-.controls {
-    display: flex;
-    gap: 10px;
-}
+/* =============================================================
+   BOTÕES
+   ============================================================= */
 
 .btn {
     padding: 8px 16px;
-    border: 1px solid var(--line);
+    border: 1px solid var(--color-line);
     border-radius: 8px;
-    background: #fff;
+    background: var(--color-btn-bg);
     cursor: pointer;
 }
 
 .btn:hover {
-    background: var(--hover);
+    background: var(--color-btn-hover-bg);
 }
 
 .btn--ghost {
     border: none;
-    background: transparent;
+    background: var(--color-btn-ghost);
     color: #fff;
     cursor: pointer;
 }
 
+/* =============================================================
+   BOTÃO DE LETRA
+   ============================================================= */
+
+#btn-letra {
+    margin-top: 5px;
+    background: var(--color-btn-primary-bg);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+#btn-letra:hover {
+    background: var(--color-btn-primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btn-letra:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-btn-primary-focus);
+}
+
+/* =============================================================
+   MODAL DE LETRA
+   ============================================================= */
+
+#letra-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#letra-modal .modal-content {
+    position: relative;
+    background: var(--color-modal-bg);
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#letra-title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#letra-text {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+/* Botão de fechar do modal de letra */
+#btn-close-letra {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: var(--color-btn-close-bg);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-btn-close-text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-close-letra:hover {
+    background: var(--color-btn-close-hover);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* =============================================================
+   IMPRESSÃO
+   ============================================================= */
 
 @media print {
-    * {
-        box-sizing: border-box;
-    }
-
     body {
         margin: 0;
         background: #fff;
     }
 
-    /* Força impressão em paisagem */
     @page {
         size: A4 landscape;
         margin: 5mm;
     }
 
-    /* Mantém o layout de colunas */
     .grid {
         display: flex !important;
         flex-wrap: nowrap !important;
@@ -309,7 +414,6 @@ body {
         min-height: 30px;
     }
 
-
     .col-header,
     .section-row,
     .note-row,
@@ -318,119 +422,8 @@ body {
         border-right: 1px solid #cccccc;
     }
 
-    .right {
-        font-size: 10px;
-    }
-
+    .right,
     .time {
         font-size: 10px;
     }
-
-}
-
-/* Modal da Letra */
-#letra-modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-#letra-modal .modal-content {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-  height: 300px;          /* altura fixa */
-  overflow-y: auto;       /* ativa rolagem vertical */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-#letra-title {
-  margin-bottom: 10px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-#letra-text {
-  white-space: pre-wrap;  /* mantém quebras de linha */
-  line-height: 1.5;
-}
-
-
-
-/* Botão de fechar da letra */
-#btn-close-letra {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  background: #f0f0f0;
-  border: none;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#btn-close-letra:hover {
-  background: var(--blue);
-  color: #fff;
-  transform: scale(1.1);
-}
-
-#btn-close-letra:active {
-  transform: scale(0.95);
-}
-
-/* Garante que o botão fique acima do texto */
-#letra-modal .modal-content {
-  position: relative;
-  background: #fff;
-  padding: 30px 20px 20px 20px; /* espaço extra no topo para o botão */
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-  height: 300px;
-  overflow-y: auto;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-
-
-/* Botão Ver Letra */
-#btn-letra {
-  margin-top: 5px;
-  background: var(--blue);           /* azul moderno */
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 5px 10px;
-  font-size: 12px;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-}
-
-#btn-letra:hover {
-  background: #2980b9;           /* azul mais escuro no hover */
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-#btn-letra:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-#btn-letra:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.4);
 }
