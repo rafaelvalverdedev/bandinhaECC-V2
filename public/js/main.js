@@ -16,5 +16,42 @@ import { render } from './render.js';
 import './player.js'; // inicializa listeners do player
 import './lyrics.js';  // inicializa listeners do modal de letras
 
-// Quando o DOM estiver carregado chamamos render() para montar a grade.
-document.addEventListener("DOMContentLoaded", render);
+import { initNotifications, NotificationManager } from './notifications.js';
+
+// Registra o Service Worker
+async function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+        try {
+            const registration = await navigator.serviceWorker.register('/service-worker.js');
+            console.log('✅ Service Worker registrado:', registration.scope);
+            return registration;
+        } catch (error) {
+            console.error('❌ Erro ao registrar Service Worker:', error);
+            return null;
+        }
+    }
+}
+
+// Inicialização
+document.addEventListener("DOMContentLoaded", () => {
+    // Renderiza a grade de músicas
+    render();
+    
+    // Registra o Service Worker
+    registerServiceWorker();
+    
+    // Inicializa sistema de notificações (mostra banner após 3s)
+    initNotifications();
+});
+
+// ======================================================================
+// EXEMPLO DE USO: Funções disponíveis globalmente para testes
+// ======================================================================
+
+// Disponibiliza o NotificationManager no console para testes
+window.NotificationManager = NotificationManager;
+
+// Exemplos que você pode testar no console do navegador:
+// NotificationManager.send('Teste', { body: 'Esta é uma notificação de teste' });
+// NotificationManager.notifyNewSong('Grande é o Senhor');
+// NotificationManager.notifyUpcomingEvent('Culto da Família', 30);

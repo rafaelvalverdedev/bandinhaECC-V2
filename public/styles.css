@@ -428,3 +428,148 @@ body {
         font-size: 10px;
     }
 }
+
+
+/* =============================================================
+   BANNER DE NOTIFICAÇÕES
+   Adicione ao final do seu styles.css
+   ============================================================= */
+
+.notification-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    max-width: 500px;
+    width: calc(100% - 40px);
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateX(-50%) translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+}
+
+.notification-banner.fade-out {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-50%) translateY(100px);
+        opacity: 0;
+    }
+}
+
+.notification-banner__content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+}
+
+.notification-banner__icon {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.notification-banner__text {
+    flex: 1;
+}
+
+.notification-banner__text strong {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--color-ink);
+    font-size: 15px;
+}
+
+.notification-banner__text p {
+    margin: 0;
+    color: var(--color-muted);
+    font-size: 13px;
+}
+
+.notification-banner__actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.notification-banner__actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.notification-banner__actions .btn-allow {
+    background: var(--color-blue);
+    color: white;
+}
+
+.notification-banner__actions .btn-allow:hover {
+    background: #153a6d;
+    transform: translateY(-1px);
+}
+
+.notification-banner__actions .btn-dismiss {
+    background: transparent;
+    color: var(--color-muted);
+}
+
+.notification-banner__actions .btn-dismiss:hover {
+    background: var(--color-hover);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .notification-banner {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        transform: none;
+    }
+
+    @keyframes slideUp {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .notification-banner__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .notification-banner__actions {
+        width: 100%;
+    }
+
+    .notification-banner__actions button {
+        flex: 1;
+    }
+}
