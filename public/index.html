@@ -34,10 +34,22 @@
 
     <!-- Importa o arquivo de estilos local (styles.css) -->
     <link rel="stylesheet" href="./styles.css" />
+
+
+    <!-- PushAlert -->
+    <script type="text/javascript">
+        (function (d, t) {
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.src = "https://cdn.pushalert.co/integrate_28d0aa3ff5150d2efae6fc1ece590f44.js";
+            s.parentNode.insertBefore(g, s);
+        }(document, "script"));
+    </script>
+    <!-- End PushAlert -->
 </head>
 
 <body>
-<!--
+    <!--
     O corpo (<body>) contém tudo que aparece visualmente na página:
     grid principal, modais, botões, e scripts no final.
 -->
@@ -86,8 +98,8 @@
                         Estes elementos são atualizados dinamicamente via JavaScript.
                         Quando o usuário clica em uma música, o JS preenche o título e meta-informações.
                     -->
-                    <div id="trackTitle" class="track-title"></div>   <!-- Nome da música -->
-                    <div id="trackMeta" class="modal__meta"></div>   <!-- Horário, tom, página -->
+                    <div id="trackTitle" class="track-title"></div> <!-- Nome da música -->
+                    <div id="trackMeta" class="modal__meta"></div> <!-- Horário, tom, página -->
 
                     <!-- Botão que abre o modal de letras -->
                     <button id="btn-letra">Ver Letra</button>
@@ -143,15 +155,7 @@
     <script src="letras-musicas.js"></script>
     <script src="musicas.js"></script>
     <script type="module" src="./js/main.js"></script>
-<!-- PushAlert -->
-<script type="text/javascript">
-        (function(d, t) {
-                var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-                g.src = "https://cdn.pushalert.co/integrate_28d0aa3ff5150d2efae6fc1ece590f44.js";
-                s.parentNode.insertBefore(g, s);
-        }(document, "script"));
-</script>
-<!-- End PushAlert -->
+
 </body>
+
 </html>
