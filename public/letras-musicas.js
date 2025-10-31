@@ -1654,6 +1654,75 @@ const LETRAS = [
           "Em um só louvor",
           "Cantemos todos: Ele é o nosso Senhor!"
         ]
+      },
+      {
+        "numero": 65,
+        "titulo": "BEM AVENTURADO AQUELE QUE TEME AO SENHOR",
+        "pagina": 65,
+        "letra": [
+          "Bem aventurado aquele, que teme ao Senhor",
+          "E confia perpetuamente em seu poder",
+          "E medita de dia e de noite",
+          "Noite e dia sem fim",
+          "Sua casa edificada sobre a rocha",
+          "Não existe vendaval, pra destruir",
+          "E a família que habita dentro dela",
+          "No Senhor espera",
+          "Espera no Senhor sem desistir",
+          "Na certeza que ele não falha",
+          "Tudo ele já preparou",
+          "Seu poder nunca mudou",
+          "Espera no Senhor sem desistir",
+          "Seu poder nunca mudou",
+
+
+          "Sua casa edificada sobre a rocha",
+          "Não existe vendaval, pra destruir",
+          "E a família que habita dentro dela",
+          "No Senhor espera",
+          "Espera no Senhor sem desistir",
+          "Na certeza que ele não falha",
+          "Tudo ele já preparou",
+          "Seu poder nunca mudou",
+          "Espera no Senhor sem desistir",
+          "Seu poder nunca mudou",
+          "Seu poder nunca mudou"
+        ]
+      }
+      ,
+      {
+        "numero": 66,
+        "titulo": "BENDITO SERÁ",
+        "pagina": 66,
+        "letra": [
+          "Não",
+          "Este não pode ser teu fim",
+          "Não é o que Deus sonhou pra ti",
+          "Não podes aceitar",
+
+          "Ver",
+          "Tua família se acabar",
+          "Tua esperança se apagar",
+          "Tua fé esmorecer",
+
+          "Sei que é difícil crer que sim",
+          "Se tudo em volta diz que não",
+          "E a angústia te faz esquecer",
+
+          "De tudo o que Deus prometeu",
+          "Que sobre a tua vida estão",
+          "As mesmas bênçãos de Abraão",
+
+          "Bendita será tua casa",
+          "Benditos serão teus filhos",
+          "E Deus engrandecerá",
+          "Teu nome",
+
+          "Bendita será tua casa",
+          "Benditos serão teus filhos",
+          "E Deus engrandecerá",
+          "Teu nome",
+        ]
       }
     ]
   }

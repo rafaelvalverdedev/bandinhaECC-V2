@@ -273,11 +273,46 @@ const COLUMNS = [
       {
         "id": "sa-12",
         "time": "",
-        "title": "Com Cristo no meu barco",
-        "lyrics": "Com Cristo no Barco Tudo Vai Muito Bem",
-        "tone": "D",
-        "url": "audio/Com Cristo No Meu Barco.m4a"
+        "title": "***",
+        "lyrics": "***",
+        "tone": "",
+        "url": ""
       },
+      {
+        "id": "sa-46",
+        "time": "",
+        "title": "BEM AVENTURADO AQUELE QUE TEME AO SENHOR",
+        "lyrics": "Bem Aventurado Aquele que teme ao Senhor",
+        "tone": "D",
+        "page": 65,
+        "url": "audio/bem-aventurado-aquele-que-teme-ao-senhor.mp3"
+      },
+      {
+        "id": "sa-47",
+        "time": "",
+        "title": "CASA DE BENÇÃO",
+        "lyrics": "Minha casa será uma casa de benção",
+        "tone": "D",
+        "page": 29,
+        "url": "audio/casa-de-bencao.mp3"
+      },
+      {
+        "id": "sa-48",
+        "time": "",
+        "title": "BENDITO SERÁ",
+        "lyrics": "Não. Este não pode ser teu fim",
+        "tone": "D",
+        "page": 66,
+        "url": "audio/bendito-seras.mp3"
+      },
+            {
+        "id": "sa-49",
+        "time": "",
+        "title": "***",
+        "lyrics": "***",
+        "tone": "",
+        "url": ""
+      },              
       {
         "type": "section",
         "id": "sa-sec-2",
@@ -1197,7 +1232,7 @@ const COLUMNS = [
         "lyrics": "Minha casa será uma casa de benção",
         "tone": "D",
         "page": 29,
-        "url": ""
+        "url": "audio/casa-de-bencao.mp3"
       },
       {
         "type": "section",
