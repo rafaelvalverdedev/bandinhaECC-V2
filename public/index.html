@@ -21,6 +21,15 @@
     <!-- Configura a escala inicial e largura da viewport (importante para mobile). -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+
+    <meta property="og:title" content="Programação Bandinha ECC" />
+    <meta property="og:description" content="Programação da Bandinha ECC de Serrinha - Com áudio e letra das músicas" />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:url" content="https://bandinhaecc-v2.vercel.app" />
+    <meta property="og:type" content="website" />
+
+
+
     <!-- Título exibido na aba do navegador -->
     <title>V2 Programação de Músicas</title>
 
@@ -37,7 +46,7 @@
 </head>
 
 <body>
-<!--
+    <!--
     O corpo (<body>) contém tudo que aparece visualmente na página:
     grid principal, modais, botões, e scripts no final.
 -->
@@ -86,8 +95,8 @@
                         Estes elementos são atualizados dinamicamente via JavaScript.
                         Quando o usuário clica em uma música, o JS preenche o título e meta-informações.
                     -->
-                    <div id="trackTitle" class="track-title"></div>   <!-- Nome da música -->
-                    <div id="trackMeta" class="modal__meta"></div>   <!-- Horário, tom, página -->
+                    <div id="trackTitle" class="track-title"></div> <!-- Nome da música -->
+                    <div id="trackMeta" class="modal__meta"></div> <!-- Horário, tom, página -->
 
                     <!-- Botão que abre o modal de letras -->
                     <button id="btn-letra">Ver Letra</button>
@@ -145,4 +154,5 @@
     <script type="module" src="./js/main.js"></script>
 
 </body>
+
 </html>
