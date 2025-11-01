@@ -1688,8 +1688,7 @@ const LETRAS = [
           "Seu poder nunca mudou",
           "Seu poder nunca mudou"
         ]
-      }
-      ,
+      },
       {
         "numero": 66,
         "titulo": "BENDITO SERÁ",
@@ -1722,6 +1721,53 @@ const LETRAS = [
           "Benditos serão teus filhos",
           "E Deus engrandecerá",
           "Teu nome",
+        ]
+      },
+      {
+        "numero": 67,
+        "titulo": "COM AMOR NO LAR",
+        "pagina": 67,
+        "letra": [
+          "Tudo é belo em derredor",
+          "Com amor no lar",
+          "Há beleza em cada flor",
+          "Com amor no lar",
+          "Paz e gozo conceder",
+          "Amargura desfazer",
+          "E saúde promover",
+          "Vem no amor no lar",
+
+          "Com amor, com amor",
+          "Não há dor, não há pesar",
+          "Com amor no lar",
+
+          "Na choupana há prazer",
+          "Com amor no lar",
+          "Ódio e mal não pode haver",
+          "Com amor no lar",
+          "Casa rosa no jardim",
+          "Cada rosa no jardim",
+          "Canta hinos para mim",
+          "Dando a vida alegre fim",
+          "Com amor no lar",
+
+          "Todo o ceu parece rir",
+          "Com amor no lar",
+          "Todo mundo refletir",
+          "Este amor no lar",
+          "No regato o murmurar",
+          "E das aves o cantar",
+          "Tudo faz-ns jubilar",
+          "Com amor no lar",
+
+          "Meu Jesus, oh! Faz me teu",
+          "Dando amor no lar",
+          "Faz-me renunciar ao eu",
+          "Faz-me mais amar",
+          "Confiando eu deporei",
+          "Todo carga aos pes do rei",
+          "Sempre amando em sua lei",
+          "Com amor no lar",
         ]
       }
     ]

@@ -273,19 +273,11 @@ const COLUMNS = [
       {
         "id": "sa-12",
         "time": "",
-        "title": "***",
-        "lyrics": "***",
-        "tone": "",
-        "url": ""
-      },
-      {
-        "id": "sa-46",
-        "time": "",
-        "title": "BEM AVENTURADO AQUELE QUE TEME AO SENHOR",
-        "lyrics": "Bem Aventurado Aquele que teme ao Senhor",
+        "title": "COM AMOR NO LAR",
+        "lyrics": "Tudo é belo em derredor",
         "tone": "D",
-        "page": 65,
-        "url": "audio/bem-aventurado-aquele-que-teme-ao-senhor.mp3"
+        "page": 67,
+        "url": "audio/com-amor-no-lar.m4a"
       },
       {
         "id": "sa-47",
@@ -304,15 +296,7 @@ const COLUMNS = [
         "tone": "D",
         "page": 66,
         "url": "audio/bendito-seras.mp3"
-      },
-            {
-        "id": "sa-49",
-        "time": "",
-        "title": "***",
-        "lyrics": "***",
-        "tone": "",
-        "url": ""
-      },              
+      },           
       {
         "type": "section",
         "id": "sa-sec-2",
