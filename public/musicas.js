@@ -892,18 +892,20 @@ const COLUMNS = [
       {
         "id": "dg-12",
         "time": "",
-        "title": "Deus está aqui",
-        "lyrics": "Deus está aqui. Tão certo como o ar que eu respiro",
+        "title": "GETSÊMANI",
+        "lyrics": "REFRÃO - Vê os cravos nas mãos - Seu corpo a sofrer ",
         "tone": "D",
-        "url": "audio/deus-esta-aqui.m4a"
+        "page": 68,
+        "url": "audio/getsemani.mp3"
       },
       {
         "id": "dg-13",
         "time": "",
-        "title": "Com amor no lar",
-        "lyrics": "Tudo é belo em derredor / Com amor no lar",
-        "tone": "F",
-        "url": "audio/com-amor-no-lar.m4a"
+        "title": "POR QUE ELE VIVE",
+        "lyrics": "Deus enviou seu filho amado",
+        "tone": "D",
+        "page": 69,
+        "url": ""
       },
       {
         "type": "section",

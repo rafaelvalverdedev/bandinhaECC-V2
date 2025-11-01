@@ -1769,6 +1769,50 @@ const LETRAS = [
           "Sempre amando em sua lei",
           "Com amor no lar",
         ]
+      },
+      {
+        "numero": 68,
+        "titulo": "GETSÊMANI",
+        "pagina": 68,
+        "letra": [
+          "Vê os cravos nas mãos",
+          "Seu corpo a sofrer",
+          "Naqueles momentos de dor",
+          "Ver o Mestre a chorar",
+          "E foi por você",
+          "Que Ele mostrou tanto amor",
+        ]
+      },
+      {
+        "numero": 69,
+        "titulo": "POR QUE ELE VIVE",
+        "pagina": 69,
+        "letra": [
+          "Deus enviou Seu Filho amado",
+          "Pra me salvar e perdoar",
+          "Na cruz morreu por meus pecados",
+          "Mas ressurgiu e vivo com o Pai está",
+
+          "Porque Ele vive, posso crer no amanhã",
+          "Porque Ele vive, temor não há",
+          "Mas eu bem sei, eu sei que a minha vida",
+          "Está nas mãos do meu Jesus, que vivo está",
+
+          "E quando, enfim, chegar a hora",
+          "Em que a morte enfrentarei",
+          "Sem medo, então, terei vitória",
+          "Verei na Glória, o meu Jesus que vivo está",
+
+          "Porque Ele vive, posso crer no amanhã",
+          "Porque Ele vive, temor não há",
+          "Mas eu bem sei, eu sei que a minha vida",
+          "Está nas mãos do meu Jesus, que vivo está",
+
+          "Porque Ele vive, posso crer no amanhã",
+          "Porque Ele vive, temor não há",
+          "Mas eu bem sei, eu sei que a minha vida",
+          "Está nas mãos do meu Jesus, que vivo está",
+        ]
       }
     ]
   }
