@@ -301,7 +301,7 @@ const COLUMNS = [
         "type": "section",
         "id": "sa-sec-2",
         "time": "09:20",
-        "label": "do PÁTIO para CÍRCULO",
+        "label": "do PLENÁRIO para CÍRCULO",
         "duration": "TOM",
         "pagHead": "PAG"
       },
