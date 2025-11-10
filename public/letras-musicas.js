@@ -530,7 +530,7 @@ const LETRAS = [
       {
         "numero": 23,
         "titulo": "NENHUMA CONDENAÇÃO HÁ",
-        "pagina": 22,
+        "pagina": 56,
         "letra": [
           "De todas as provas que eu já passei",
           "É bem difícil, Senhor",
@@ -565,7 +565,7 @@ const LETRAS = [
       {
         "numero": 24,
         "titulo": "QUERO LOUVAR-TE",
-        "pagina": 23,
+        "pagina": 34,
         "letra": [
           "Quero louvar-te",
           "Sempre mais e mais,",
@@ -599,7 +599,7 @@ const LETRAS = [
       {
         "numero": 25,
         "titulo": "RARIDADE",
-        "pagina": 24,
+        "pagina": 23,
         "letra": [
           "Não consigo ir além de teu olhar",
           "Tudo o que eu consigo é imaginar",
@@ -629,7 +629,7 @@ const LETRAS = [
       {
         "numero": 26,
         "titulo": "MEU BARQUINHO",
-        "pagina": 25,
+        "pagina": 32,
         "letra": [
           "O vento balançou meu barco em alto mar",
           "O medo me cercou e quis me afogar",
@@ -652,7 +652,7 @@ const LETRAS = [
       {
         "numero": 27,
         "titulo": "HÁ UMA UNÇÃO",
-        "pagina": 26,
+        "pagina": 25,
         "letra": [
           "Há uma unção, já posso sentir",
           "Verdadeiramente Deus está aqui",
@@ -681,7 +681,7 @@ const LETRAS = [
       {
         "numero": 28,
         "titulo": "CONTE A DEUS",
-        "pagina": 27,
+        "pagina": 30,
         "letra": [
           "Tudo estava bem, mas de repente o dia mal chegou",
           "Veio com a sensação que o mundo inteiro desabou",
@@ -714,7 +714,7 @@ const LETRAS = [
       {
         "numero": 29,
         "titulo": "EU VEJO UMA PEQUENA NUVEM",
-        "pagina": 28,
+        "pagina": 27,
         "letra": [
           "Eu vejo uma pequena nuvem",
           "Do tamanho da mão de um homem,",
@@ -736,7 +736,7 @@ const LETRAS = [
       {
         "numero": 30,
         "titulo": "CASA DE BENÇÃO",
-        "pagina": 29,
+        "pagina": 55,
         "letra": [
           "Minha casa será uma casa de bênção",
           "Minha casa será um pedaço do céu",
@@ -830,7 +830,7 @@ const LETRAS = [
       {
         "numero": 32,
         "titulo": "COM MUITO LOUVOR",
-        "pagina": 31,
+        "pagina": 54,
         "letra": [
           "Deus não rejeita oração,",
           "Oração é alimento",
@@ -866,7 +866,7 @@ const LETRAS = [
       {
         "numero": 33,
         "titulo": "BENDITO SERÁS",
-        "pagina": 32,
+        "pagina": 29,
         "letra": [
           "Não, este não pode ser teu fim",
           "Não é o que Deus sonhou pra ti",
@@ -890,7 +890,7 @@ const LETRAS = [
       {
         "numero": 34,
         "titulo": "AQUELE QUE ESTÁ FELIZ",
-        "pagina": 32,
+        "pagina": 29,
         "letra": [
           "Aquele que está feliz diga Amém – Amém",
           "Aquele que está feliz grite Aleluia – Aleluia",
@@ -908,7 +908,7 @@ const LETRAS = [
       {
         "numero": 35,
         "titulo": "ELE VEM",
-        "pagina": 33,
+        "pagina": 28,
         "letra": [
           "O tempo de cantar chegou",
           "O tempo de dançar chegou",
@@ -965,7 +965,7 @@ const LETRAS = [
       {
         "numero": 36,
         "titulo": "COMO ZAQUEU",
-        "pagina": 34,
+        "pagina": 31,
         "letra": [
           "Como Zaqueu eu quero subir",
           "O mais alto que eu puder",
@@ -991,7 +991,7 @@ const LETRAS = [
       {
         "numero": 37,
         "titulo": "PODEROSO DEUS",
-        "pagina": 35,
+        "pagina": 26,
         "letra": [
           "Ao que está assentado no trono",
           "E ao Cordeiro seja o louvor",
@@ -1021,7 +1021,7 @@ const LETRAS = [
       {
         "numero": 38,
         "titulo": "DEUS DE PROMESSAS",
-        "pagina": 36,
+        "pagina": 33,
         "letra": [
           "Sei que os teus olhos",
           "Sempre atentos permanecem em mim",
@@ -1050,7 +1050,7 @@ const LETRAS = [
       {
         "numero": 39,
         "titulo": "ELE NÃO DESISTE DE VOCÊ",
-        "pagina": 37,
+        "pagina": 24,
         "letra": [
           "Não importa quem você é",
           "Não importa o que você fez",
@@ -1081,7 +1081,7 @@ const LETRAS = [
       {
         "numero": 40,
         "titulo": "O TEMPO NÃO PODE APAGAR",
-        "pagina": 38,
+        "pagina": 35,
         "letra": [
           "O tempo não pode apagar",
           "Nem as ondas do mar levar para longe",
@@ -1121,7 +1121,7 @@ const LETRAS = [
       {
         "numero": 41,
         "titulo": "NOITES TRAIÇOEIRAS",
-        "pagina": 39,
+        "pagina": 22,
         "letra": [
           "Jesus está aqui nesse momento",
           "Sua presença é real em meu viver",
@@ -1162,7 +1162,7 @@ const LETRAS = [
       {
         "numero": 42,
         "titulo": "EM ADORAÇÃO",
-        "pagina": 40,
+        "pagina": 36,
         "letra": [
           "Em adoração",
           "Eu me rendo a Ti",
@@ -1188,7 +1188,7 @@ const LETRAS = [
       {
         "numero": 43,
         "titulo": "EU QUERO É DEUS",
-        "pagina": 41,
+        "pagina": 37,
         "letra": [
           "Eu, eu, eu, eu quero é Deus!",
           "Eu, eu, eu, eu quero é Deus!",
@@ -1219,7 +1219,7 @@ const LETRAS = [
       {
         "numero": 44,
         "titulo": "ALELUIA",
-        "pagina": 42,
+        "pagina": 38,
         "letra": [
           "Aleluia! Aleluia! Aleluia! Aleluia!",
           "Mão direita, mão esquerda com as duas louvemos",
@@ -1248,7 +1248,7 @@ const LETRAS = [
       {
         "numero": 45,
         "titulo": "AUTORIDADE E PODER",
-        "pagina": 43,
+        "pagina": 39,
         "letra": [
           "Os que confiam no Senhor",
           "São como os montes de Sião",
@@ -1273,7 +1273,7 @@ const LETRAS = [
       {
         "numero": 46,
         "titulo": "VOCÊ TEM VALOR",
-        "pagina": 44,
+        "pagina": 40,
         "letra": [
           "Quero que valorize o que você tem",
           "Você é um ser, você é alguém",
@@ -1300,7 +1300,7 @@ const LETRAS = [
       {
         "numero": 47,
         "titulo": "VEM DESFRUTAR DO AMOR DE DEUS",
-        "pagina": 45,
+        "pagina": 41,
         "letra": [
           "Vem desfrutar do amor de Deus",
           "Você e sua casa",
@@ -1326,7 +1326,7 @@ const LETRAS = [
       {
         "numero": 48,
         "titulo": "SOLTA O CABO DA NAU",
-        "pagina": 46,
+        "pagina": 42,
         "letra": [
           "Oh! Por que duvidar sobre as ondas do mar",
           "Quando Cristo o caminho abriu?",
@@ -1352,7 +1352,7 @@ const LETRAS = [
       {
         "numero": 49,
         "titulo": "VENHO SENHOR MINHA VIDA OFERECER",
-        "pagina": 47,
+        "pagina": 43,
         "letra": [
           "Venho Senhor minha vida oferecer",
           "Como oferta de amor e sacrifício.",
@@ -1369,7 +1369,7 @@ const LETRAS = [
       {
         "numero": 50,
         "titulo": "DESPERTA",
-        "pagina": 47,
+        "pagina": 43,
         "letra": [
           "Desperta, desperta",
           "Levanta, sacode o pó",
@@ -1390,7 +1390,7 @@ const LETRAS = [
       {
         "numero": 51,
         "titulo": "REUNIDOS AQUI",
-        "pagina": 48,
+        "pagina": 44,
         "letra": [
           "Reunidos aqui só para louvar ao Senhor,",
           "Novamente aqui em união",
@@ -1402,7 +1402,7 @@ const LETRAS = [
       {
         "numero": 52,
         "titulo": "BOA NOITE AMIGO",
-        "pagina": 48,
+        "pagina": 44,
         "letra": [
           "Boa noite amigo",
           "Boa noite irmão",
@@ -1423,7 +1423,7 @@ const LETRAS = [
       {
         "numero": 53,
         "titulo": "ROMPENDO EM FÉ",
-        "pagina": 49,
+        "pagina": 45,
         "letra": [
           "Cada vez que minha fé é provada",
           "Tu me dás a chance de crescer um pouco mais",
@@ -1447,7 +1447,7 @@ const LETRAS = [
       {
         "numero": 54,
         "titulo": "JESUS CRISTO MUDOU MEU VIVER",
-        "pagina": 50,
+        "pagina": 46,
         "letra": [
           "Jesus Cristo mudou meu viver (BIS)",
           "Ele é a luz que ilumina meu ser",
@@ -1467,7 +1467,7 @@ const LETRAS = [
       {
         "numero": 55,
         "titulo": "ESTOU ALEGRE (POROPOPÓ)",
-        "pagina": 51,
+        "pagina": 47,
         "letra": [
           "Estou alegre",
           "(Por que estás alegre?)",
@@ -1487,7 +1487,7 @@ const LETRAS = [
       {
         "numero": 56,
         "titulo": "RECEBI UM NOVO CORAÇÃO",
-        "pagina": 52,
+        "pagina": 48,
         "letra": [
           "Recebi um novo coração do Pai",
           "Coração regenerado",
@@ -1515,7 +1515,7 @@ const LETRAS = [
       {
         "numero": 57,
         "titulo": "SE O MEU POVO",
-        "pagina": 53,
+        "pagina": 49,
         "letra": [
           "Se o meu povo que se chama pelo meu nome",
           "Se humilhar, orar e me buscar",
@@ -1534,7 +1534,7 @@ const LETRAS = [
       {
         "numero": 58,
         "titulo": "JACÓ SEGUROU O ANJO",
-        "pagina": 54,
+        "pagina": 50,
         "letra": [
           "Jacó segurou o anjo, segurou o anjo",
           "E não deixou subir (BIS)",
@@ -1552,7 +1552,7 @@ const LETRAS = [
       {
         "numero": 59,
         "titulo": "NA MINHA VIDA",
-        "pagina": 54,
+        "pagina": 50,
         "letra": [
           "Na minha vida houve uma mudança linda",
           "Sem a dor, eu conheci o verdadeiro amor.",
@@ -1567,7 +1567,7 @@ const LETRAS = [
       {
         "numero": 60,
         "titulo": "JESUS EM TUA PRESENÇA",
-        "pagina": 55,
+        "pagina": 51,
         "letra": [
           "Jesus, em Tua presença reunimo-nos aqui.",
           "Contemplamos Tua face, rendemo-nos a Ti",
@@ -1587,7 +1587,7 @@ const LETRAS = [
       {
         "numero": 61,
         "titulo": "NÓS PRECISAMOS DE CRISTO",
-        "pagina": 55,
+        "pagina": 51,
         "letra": [
           "Eu preciso de você, você precisa de mim",
           "Nós precisamos de Cristo até o fim.",
@@ -1598,7 +1598,7 @@ const LETRAS = [
       {
         "numero": 62,
         "titulo": "BATALHA",
-        "pagina": 56,
+        "pagina": 52,
         "letra": [
           "Batalhar não é batalha, se não surgem as provas",
           "Se não vence o inimigo, batalhar não é batalha. (BIS)",
@@ -1613,7 +1613,7 @@ const LETRAS = [
       {
         "numero": 63,
         "titulo": "CELEBRAI COM JUBILO",
-        "pagina": 56,
+        "pagina": 52,
         "letra": [
           "Celebrai com júbilo ao Senhor",
           "Todos os moradores da Terra,",
@@ -1630,7 +1630,7 @@ const LETRAS = [
       {
         "numero": 64,
         "titulo": "JESUS VIRÁ",
-        "pagina": 57,
+        "pagina": 53,
         "letra": [
           "Num dia lindo almejo eu encontrar",
           "A eterna glória que prometida está",

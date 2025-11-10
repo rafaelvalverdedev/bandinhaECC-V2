@@ -789,7 +789,7 @@ const COLUMNS = [
       {
         "id": "dg-04",
         "time": "",
-        "title": "Nós precisamos de Cristo",
+        "title": "NÓS PRECISAMOS DE CRISTO",
         "lyrics": "Eu preciso de você, você precisa de mim",
         "tone": "D",
         "page": 51,
@@ -969,8 +969,8 @@ const COLUMNS = [
       {
         "id": "dg-17",
         "time": "",
-        "title": "Somo todos nós",
-        "lyrics": " - ",
+        "title": "DEUS NÃO DESISTE",
+        "lyrics": "Somo todos nós",
         "tone": "D",
         "page": 8,
         "url": ""
@@ -1048,8 +1048,8 @@ const COLUMNS = [
       {
         "id": "dg-24",
         "time": "",
-        "title": "Somo todos nós",
-        "lyrics": " - ",
+        "title": "DEUS NÃO DESISTE",
+        "lyrics": "Somo todos nós",
         "tone": "D",
         "page": 8,
         "url": ""
@@ -1082,8 +1082,8 @@ const COLUMNS = [
       {
         "id": "dg-26",
         "time": "",
-        "title": "Somo todos nós",
-        "lyrics": " - ",
+        "title": "DEUS NÃO DESISTE",
+        "lyrics": "Somo todos nós",
         "tone": "D",
         "page": 8,
         "url": ""
@@ -1155,8 +1155,8 @@ const COLUMNS = [
       {
         "id": "dg-32",
         "time": "",
-        "title": "Somo todos nós (Entra cantando)",
-        "lyrics": " - ",
+        "title": "DEUS NÃO DESISTE",
+        "lyrics": "Somo todos nós (Entra cantando)",
         "tone": "D",
         "page": 8,
         "url": ""
@@ -1302,8 +1302,8 @@ const COLUMNS = [
       {
         "id": "dg-43",
         "time": "",
-        "title": "Somo todos nós (Entra cantando)",
-        "lyrics": " - ",
+        "title": "DEUS NÃO DESISTE",
+        "lyrics": "Somo todos nós (Entra cantando)",
         "tone": "D",
         "page": 8,
         "url": ""
