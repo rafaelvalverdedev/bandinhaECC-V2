@@ -17,7 +17,7 @@ const COLUMNS = [
         "title": "BOA NOITE AMIGO",
         "lyrics": "Dê um sorriso e cante essa canção",
         "tone": "D",
-        "page": 48,
+        "page": 44,
         "url": "audio/boa-noite-amigo.mp3"
       },
       {
@@ -26,7 +26,7 @@ const COLUMNS = [
         "title": "CELEBRAI COM JUBILO",
         "lyrics": "Celebrai com júbilo ao Senhor",
         "tone": "D",
-        "page": 56,
+        "page": 52,
         "url": "audio/celebrai-com-jubilo.mp3"
       },
       {
@@ -35,7 +35,7 @@ const COLUMNS = [
         "title": "REUNIDOS AQUI",
         "lyrics": "Reunidos Aqui Só pra louvar ao Senhor",
         "tone": "D",
-        "page": 48,
+        "page": 44,
         "url": "audio/reunidos-aqui.mp3"
       },
       {
@@ -62,7 +62,7 @@ const COLUMNS = [
         "title": "SE O MEU POVO",
         "lyrics": "Se o meu povo que se chama pelo meu nome",
         "tone": "D",
-        "page": 53,
+        "page": 49,
         "url": "audio/se-o-meu-povo-que-se-chama.mp3"
       },
       {
@@ -94,7 +94,7 @@ const COLUMNS = [
         "title": "BATALHA",
         "lyrics": "Batalhar não é batalha se não surgir as provas",
         "tone": "D",
-        "page": 56,
+        "page": 52,
         "url": "audio/batalha-nao-e-batalha.mp3"
       },
       {
@@ -103,7 +103,7 @@ const COLUMNS = [
         "title": "JACÓ SEGUROU O ANJO",
         "lyrics": "Jacó Segurou o Anjo, segurou  o anjo",
         "tone": "D",
-        "page": 54,
+        "page": 50,
         "url": "audio/jaco-segurou-o-anjo.m4a"
       },
       {
@@ -160,7 +160,7 @@ const COLUMNS = [
         "title": "BOA NOITE AMIGO",
         "lyrics": "Dê um sorriso e cante essa canção",
         "tone": "D",
-        "page": 48,
+        "page": 44,
         "url": "audio/boa-noite-amigo.mp3"
       },
       {
@@ -169,7 +169,7 @@ const COLUMNS = [
         "title": "CELEBRAI COM JUBILO",
         "lyrics": "Celebrai com júbilo ao Senhor",
         "tone": "D",
-        "page": 56,
+        "page": 52,
         "url": "audio/celebrai-com-jubilo.mp3"
       },
       {
@@ -178,7 +178,7 @@ const COLUMNS = [
         "title": "AUTORIDADE E PODER",
         "lyrics": "Os que confiam no Senhor",
         "tone": "D",
-        "page": 43,
+        "page": 39,
         "url": ""
       },
       {
@@ -187,7 +187,7 @@ const COLUMNS = [
         "title": "DESPERTA",
         "lyrics": "Levanta, sacode pó quebra as cadeias.",
         "tone": "Dm",
-        "page": 47,
+        "page": 43,
         "url": ""
       },
       {
@@ -205,7 +205,7 @@ const COLUMNS = [
         "title": "ALELUIA",
         "lyrics": "Aleluia, Aleluia, Mão direita, Mão esquerda",
         "tone": "D",
-        "page": 42,
+        "page": 38,
         "url": ""
       },
       {
@@ -223,7 +223,7 @@ const COLUMNS = [
         "title": "ELE NÃO DESISTE DE VOCÊ",
         "lyrics": "Não importa quem você é",
         "tone": "D",
-        "page": 37,
+        "page": 24,
         "url": ""
       },
       {
@@ -232,7 +232,7 @@ const COLUMNS = [
         "title": "QUERO LOUVAR-TE",
         "lyrics": "Quero louvar-te sempre mais e mais",
         "tone": "D",
-        "page": 23,
+        "page": 34,
         "url": ""
       },
       {
@@ -241,7 +241,7 @@ const COLUMNS = [
         "title": "COMO ZAQUEU",
         "lyrics": "Como Zaqueu, quero subir",
         "tone": "D",
-        "page": 34,
+        "page": 31,
         "url": ""
       },
       {
@@ -273,11 +273,11 @@ const COLUMNS = [
       {
         "id": "sa-12",
         "time": "",
-        "title": "COM AMOR NO LAR",
-        "lyrics": "Tudo é belo em derredor",
-        "tone": "D",
-        "page": 67,
-        "url": "audio/com-amor-no-lar.m4a"
+        "title": "*",
+        "lyrics": "*",
+        "tone": "8",
+        "page": "",
+        "url": ""
       },
       {
         "id": "sa-47",
@@ -285,16 +285,16 @@ const COLUMNS = [
         "title": "CASA DE BENÇÃO",
         "lyrics": "Minha casa será uma casa de benção",
         "tone": "D",
-        "page": 29,
+        "page": 55,
         "url": "audio/casa-de-bencao.mp3"
       },
       {
         "id": "sa-48",
         "time": "",
-        "title": "BENDITO SERÁ",
+        "title": "BENDITO SERÁS",
         "lyrics": "Não. Este não pode ser teu fim",
         "tone": "D",
-        "page": 66,
+        "page": 29,
         "url": "audio/bendito-seras.mp3"
       },           
       {
@@ -311,7 +311,7 @@ const COLUMNS = [
         "title": "CONTE A DEUS",
         "lyrics": "Tudo estava bem mas de repente o dia mal chegou",
         "tone": "D",
-        "page": 27,
+        "page": 30,
         "url": "audio/Conte A Deus.m4a"
       },
       {
@@ -328,7 +328,7 @@ const COLUMNS = [
         "title": "COM MUITO LOUVOR",
         "lyrics": "DEUS VAI NA FRENTE, ABRINDO CAMINHO *Batida na porta",
         "tone": "A",
-        "page": 31,
+        "page": 54,
         "url": ""
       },
       {
@@ -345,7 +345,7 @@ const COLUMNS = [
         "title": "EU QUERO É DEUS",
         "lyrics": "Eu, Eu, Eu, Eu quero é Deus",
         "tone": "D",
-        "page": 41,
+        "page": 37,
         "url": ""
       },
       {
@@ -354,7 +354,7 @@ const COLUMNS = [
         "title": "ELE VEM",
         "lyrics": "O tempo de cantar chegou",
         "tone": "D",
-        "page": 33,
+        "page": 28,
         "url": ""
       },
       {
@@ -372,7 +372,7 @@ const COLUMNS = [
         "title": "JESUS VIRÁ",
         "lyrics": "Num dia lindo almejo eu encontrar Começa no refrão",
         "tone": "D",
-        "page": 57,
+        "page": 53,
         "url": ""
       },
       {
@@ -399,7 +399,7 @@ const COLUMNS = [
         "title": "HÁ UMA UNÇÃO",
         "lyrics": "Há uma unção, já posso sentir",
         "tone": "F",
-        "page": 26,
+        "page": 25,
         "url": ""
       },
       {
@@ -467,7 +467,7 @@ const COLUMNS = [
         "title": "HÁ UMA UNÇÃO",
         "lyrics": "Há uma unção já posso sentir verdadeiramente",
         "tone": "F",
-        "page": 26,
+        "page": 25,
         "url": ""
       },
       {
@@ -476,7 +476,7 @@ const COLUMNS = [
         "title": "VENHO SENHOR MINHA VIDA OFERECER",
         "lyrics": "Venho senhor minha vida oferecer como oferta de amor",
         "tone": "D",
-        "page": 47,
+        "page": 43,
         "url": ""
       },
       {
@@ -535,7 +535,7 @@ const COLUMNS = [
         "title": "O TEMPO NÃO PODE APAGAR",
         "lyrics": "O tempo não pode apagar nem as ondas do mar - Batida na porta - gritar página",
         "tone": "G",
-        "page": 38,
+        "page": 35,
         "url": ""
       },
       {
@@ -569,7 +569,7 @@ const COLUMNS = [
         "title": "NÓS PRECISAMOS DE CRISTO",
         "lyrics": "Eu preciso de você, você precisa de mim",
         "tone": "D",
-        "page": 55,
+        "page": 51,
         "url": ""
       },
       {
@@ -586,7 +586,7 @@ const COLUMNS = [
         "title": "VEM DESFRUTAR DO AMOR DE DEUS",
         "lyrics": "Vem desfrutar do amor de Deus",
         "tone": "D",
-        "page": 45,
+        "page": 41,
         "url": ""
       },
       {
@@ -622,7 +622,7 @@ const COLUMNS = [
         "title": "MEU BARQUINHO",
         "lyrics": "O vento balançou meu barco em alto mar",
         "tone": "D",
-        "page": 25,
+        "page": 32,
         "url": ""
       },
       {
@@ -631,7 +631,7 @@ const COLUMNS = [
         "title": "VOCÊ TEM VALOR",
         "lyrics": "Quero que valorize o que você tem",
         "tone": "D",
-        "page": 44,
+        "page": 40,
         "url": ""
       },
       {
@@ -640,7 +640,7 @@ const COLUMNS = [
         "title": "RARIDADE",
         "lyrics": "VOCÊ É UM ESPELHO Não consigo ir além do seu olhar. (começa do refrão)",
         "tone": "D",
-        "page": 24,
+        "page": 23,
         "url": ""
       },
       {
@@ -674,7 +674,7 @@ const COLUMNS = [
         "title": "ESTOU ALEGRE (POROPOPÓ)",
         "lyrics": "Estou alegre...Poropopo",
         "tone": "D",
-        "page": 51,
+        "page": 47,
         "url": "audio/poropopo.mp3"
       },
       {
@@ -708,7 +708,7 @@ const COLUMNS = [
         "title": "AQUELE QUE ESTÁ FELIZ",
         "lyrics": "Aquele que está feliz diga amém *Batida na porta",
         "tone": "D",
-        "page": 32,
+        "page": 29,
         "url": ""
       },
       {
@@ -765,7 +765,7 @@ const COLUMNS = [
         "title": "BOA NOITE AMIGO",
         "lyrics": "Dê um sorriso e cante essa canção",
         "tone": "D",
-        "page": 48,
+        "page": 44,
         "url": "audio/boa-noite-amigo.mp3"
       },
       {
@@ -792,7 +792,7 @@ const COLUMNS = [
         "title": "Nós precisamos de Cristo",
         "lyrics": "Eu preciso de você, você precisa de mim",
         "tone": "D",
-        "page": 55,
+        "page": 51,
         "url": ""
       },
       {
@@ -809,7 +809,7 @@ const COLUMNS = [
         "title": "NOITES TRAIÇOEIRAS",
         "lyrics": "Jesus está aqui nesse momento. Sua presença é real em meu viver",
         "tone": "D",
-        "page": 39,
+        "page": 22,
         "url": ""
       },
       {
@@ -843,7 +843,7 @@ const COLUMNS = [
         "title": "PODEROSO DEUS",
         "lyrics": "Ao que está assentado no trono. E ao cordeiro",
         "tone": "D",
-        "page": 35,
+        "page": 26,
         "url": ""
       },
       {
@@ -852,7 +852,7 @@ const COLUMNS = [
         "title": "EU VEJO UMA PEQUENA NUVEM",
         "lyrics": "Eu vejo uma pequena nuvem do tamanho da mão",
         "tone": "Dm",
-        "page": 28,
+        "page": 27,
         "url": ""
       },
       {
@@ -892,10 +892,10 @@ const COLUMNS = [
       {
         "id": "dg-12",
         "time": "",
-        "title": "GETSÊMANI",
-        "lyrics": "REFRÃO - Vê os cravos nas mãos - Seu corpo a sofrer ",
-        "tone": "D",
-        "page": 68,
+        "title": "*",
+        "lyrics": "*",
+        "tone": "",
+        "page": "",
         "url": "audio/getsemani.mp3"
       },
       {
@@ -921,7 +921,7 @@ const COLUMNS = [
         "title": "JESUS CRISTO MUDOU MEU VIVER",
         "lyrics": "Jesus Cristo mudou meu viver",
         "tone": "D",
-        "page": 50,
+        "page": 46,
         "url": ""
       },
       {
@@ -938,7 +938,7 @@ const COLUMNS = [
         "title": "NENHUMA CONDENAÇÃO HÁ",
         "lyrics": "De todas as provas que eu já passei. É bem difícil",
         "tone": "D",
-        "page": 30,
+        "page": 56,
         "url": ""
       },
       {
@@ -989,7 +989,7 @@ const COLUMNS = [
         "title": "RECEBI UM NOVO CORAÇÃO",
         "lyrics": "Recebi um novo coração, coração regenerado",
         "tone": "D",
-        "page": 52,
+        "page": 48,
         "url": ""
       },
       {
@@ -998,7 +998,7 @@ const COLUMNS = [
         "title": "ROMPENDO EM FÉ",
         "lyrics": "Cada vez que minha fé é provada",
         "tone": "D",
-        "page": 49,
+        "page": 45,
         "url": ""
       },
       {
@@ -1007,7 +1007,7 @@ const COLUMNS = [
         "title": "VENHO SENHOR MINHA VIDA OFERECER",
         "lyrics": "Venho senhor minha vida oferecer",
         "tone": "D",
-        "page": 47,
+        "page": 43,
         "url": ""
       },
       {
@@ -1016,7 +1016,7 @@ const COLUMNS = [
         "title": "ELE VEM",
         "lyrics": "O tempo de cantar chegou. O tempo de dançar chegou",
         "tone": "D",
-        "page": 33,
+        "page": 28,
         "url": ""
       },
       {
@@ -1025,7 +1025,7 @@ const COLUMNS = [
         "title": "JESUS EM TUA PRESENÇA",
         "lyrics": "Jesus em tua presença, reunimo-nos aqui",
         "tone": "D",
-        "page": 55,
+        "page": 51,
         "url": ""
       },
       {
@@ -1034,7 +1034,7 @@ const COLUMNS = [
         "title": "SOLTA O CABO DA NAU",
         "lyrics": "Oh! Por que duvidar sobre as ondas do mar",
         "tone": "D",
-        "page": 46,
+        "page": 42,
         "url": ""
       },
       {
@@ -1068,7 +1068,7 @@ const COLUMNS = [
         "title": "ESTOU ALEGRE (POROPOPÓ)",
         "lyrics": "Ensaio do maestro Estou alegre",
         "tone": "D",
-        "page": 51,
+        "page": 47,
         "url": "audio/poropopo.mp3"
       },
       {
@@ -1217,7 +1217,7 @@ const COLUMNS = [
         "title": "CASA DE BENÇÃO",
         "lyrics": "Minha casa será uma casa de benção",
         "tone": "D",
-        "page": 29,
+        "page": 55,
         "url": "audio/casa-de-bencao.mp3"
       },
       {
@@ -1234,7 +1234,7 @@ const COLUMNS = [
         "title": "NA MINHA VIDA",
         "lyrics": "Na minha vida houve uma mudança linda",
         "tone": "D",
-        "page": 54,
+        "page": 50,
         "url": ""
       },
       {
@@ -1261,7 +1261,7 @@ const COLUMNS = [
         "title": "AQUELE QUE ESTÁ FELIZ",
         "lyrics": "Aquele que está feliz diga amém",
         "tone": "D",
-        "page": 32,
+        "page": 29,
         "url": ""
       },
       {
@@ -1270,7 +1270,7 @@ const COLUMNS = [
         "title": "AUTORIDADE E PODER",
         "lyrics": "Os que confiam no Senhor",
         "tone": "D",
-        "page": 43,
+        "page": 39,
         "url": ""
       },
       {
@@ -1279,7 +1279,7 @@ const COLUMNS = [
         "title": "EM ADORAÇÃO",
         "lyrics": "Em adoração eu me rendo a ti",
         "tone": "D",
-        "page": 40,
+        "page": 36,
         "url": ""
       },
       {
@@ -1288,7 +1288,7 @@ const COLUMNS = [
         "title": "DEUS DE PROMESSAS",
         "lyrics": "Sei que os teus olhos sempre atentos permanecem",
         "tone": "D",
-        "page": 41,
+        "page": 33,
         "url": ""
       },
       {
