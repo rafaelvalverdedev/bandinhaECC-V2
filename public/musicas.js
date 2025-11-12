@@ -1083,7 +1083,7 @@ const COLUMNS = [
         "id": "dg-26",
         "time": "",
         "title": "DEUS NÃO DESISTE",
-        "lyrics": "Somo todos nós",
+        "lyrics": "Somo todos nós (aguarda na entrada da quadra)",
         "tone": "D",
         "page": 8,
         "url": ""
@@ -1100,7 +1100,7 @@ const COLUMNS = [
         "id": "dg-27",
         "time": "",
         "title": "Ao Senhor agradecemos essa nossa refeição",
-        "lyrics": " - ",
+        "lyrics": "Canta e aguarda do lado de fora da quadra",
         "tone": "D",
         "url": ""
       },
@@ -1108,7 +1108,7 @@ const COLUMNS = [
         "id": "dg-28",
         "time": "",
         "title": "Pensando que cachaça é agua / Batida de Coco",
-        "lyrics": " - ",
+        "lyrics": "",
         "tone": "D",
         "url": ""
       },
@@ -1116,7 +1116,7 @@ const COLUMNS = [
         "id": "dg-29",
         "time": "",
         "title": "A turma da cozinha é animada",
-        "lyrics": " - ",
+        "lyrics": "",
         "tone": "D",
         "url": "audio/a turma da cozinha e animada.mp3"
       },
@@ -1124,7 +1124,15 @@ const COLUMNS = [
         "id": "dg-30",
         "time": "",
         "title": "Musica do Parabens para você",
-        "lyrics": " - ",
+        "lyrics": "",
+        "tone": "D",
+        "url": ""
+      },
+      {
+        "id": "dg-27",
+        "time": "",
+        "title": "Ao Senhor agradecemos essa nossa refeição",
+        "lyrics": "",
         "tone": "D",
         "url": ""
       },
