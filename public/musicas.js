@@ -6,7 +6,7 @@ const COLUMNS = [
       {
         "type": "section",
         "id": "sx-sec-1",
-        "time": "19:30",
+        "time": "19:40",
         "label": "PÁTIO",
         "duration": "TOM",
         "pagHead": "PAG"
