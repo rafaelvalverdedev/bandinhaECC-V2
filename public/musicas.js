@@ -109,7 +109,7 @@ const COLUMNS = [
       {
         "type": "section",
         "id": "sx-sec-2",
-        "time": "20:10",
+        "time": "20:00",
         "label": "do PÁTIO para Plenário",
         "duration": "TOM",
         "pagHead": "PAG"
