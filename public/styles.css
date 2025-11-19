@@ -9,28 +9,44 @@
 */
 :root {
     /* 🎨 Cores principais da identidade visual */
-    --color-bg: #dddee0;          /* cor de fundo principal da página */
-    --color-ink: #111827;         /* cor padrão do texto */
-    --color-muted: #6b7280;       /* texto secundário / meta */
-    --color-line: #d8dfe9;        /* linhas de grade e bordas suaves */
-    --color-blue: #1c4587;        /* azul principal (títulos e botões) */
-    --color-blue2: #9fc5e8;       /* azul mais claro (seções e destaques) */
-    --color-hover: #e4e7ec;       /* fundo ao passar o mouse */
-    --color-playing: #e7f3ff;     /* fundo de música tocando */
-    --color-lyrics: #2E75B6;      /* cor do subtítulo (trecho da letra) */
+    --color-bg: #dddee0;
+    /* cor de fundo principal da página */
+    --color-ink: #111827;
+    /* cor padrão do texto */
+    --color-muted: #6b7280;
+    /* texto secundário / meta */
+    --color-line: #d8dfe9;
+    /* linhas de grade e bordas suaves */
+    --color-blue: #1c4587;
+    /* azul principal (títulos e botões) */
+    --color-blue2: #9fc5e8;
+    /* azul mais claro (seções e destaques) */
+    --color-hover: #e4e7ec;
+    /* fundo ao passar o mouse */
+    --color-playing: #e7f3ff;
+    /* fundo de música tocando */
+    --color-lyrics: #2E75B6;
+    /* cor do subtítulo (trecho da letra) */
 
     /* 🧩 Cores de feedback e status */
-    --color-danger-bg: #fee2e2;   /* usado para músicas sem áudio (vermelho suave) */
+    --color-danger-bg: #fee2e2;
+    /* usado para músicas sem áudio (vermelho suave) */
 
     /* 🎛️ Cores de elementos interativos */
-    --color-btn-bg: #fff;         /* cor base de botões normais */
-    --color-btn-hover-bg: #e4e7ec;/* fundo do botão ao passar o mouse */
-    --color-btn-ghost: transparent; /* botões transparentes */
+    --color-btn-bg: #fff;
+    /* cor base de botões normais */
+    --color-btn-hover-bg: #e4e7ec;
+    /* fundo do botão ao passar o mouse */
+    --color-btn-ghost: transparent;
+    /* botões transparentes */
 
     /* 🔳 Cores de modais e sombras */
-    --color-modal-bg: #fff;       /* fundo principal dos modais */
-    --color-modal-shadow: rgba(0, 0, 0, 0.3); /* sombra padrão do modal */
-    --color-backdrop: rgba(0, 0, 0, 0.55);    /* fundo escuro atrás do modal */
+    --color-modal-bg: #fff;
+    /* fundo principal dos modais */
+    --color-modal-shadow: rgba(0, 0, 0, 0.3);
+    /* sombra padrão do modal */
+    --color-backdrop: rgba(0, 0, 0, 0.55);
+    /* fundo escuro atrás do modal */
 
     /* 🌟 Cores de botões específicos */
     --color-btn-close-bg: #f0f0f0;
@@ -184,8 +200,15 @@ body {
 }
 
 @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
 }
 
 /* =============================================================
@@ -347,7 +370,7 @@ body {
     max-width: 600px;
     height: 300px;
     overflow-y: auto;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 #letra-title {
@@ -394,12 +417,13 @@ body {
 @media print {
     body {
         margin: 0;
+        background-color: #fff;
     }
 
-    @page {
-        size: A4 landscape;
+    /* @page {
+        size: A4 portrait;
         margin: 5mm;
-    }
+    } */
 
     .grid {
         display: flex !important;
@@ -410,8 +434,18 @@ body {
         background: #ffffff;
     }
 
-    .row {
-        min-height: 30px;
+    .cell {
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .column {
+        flex: 1 1 300px;
+        min-width: 300px;
+    }
+
+    .col-header {
+        position: static;
     }
 
     .col-header,
@@ -425,6 +459,15 @@ body {
     .right,
     .time {
         font-size: 10px;
+    }
+
+    .title-lyrics {
+        font-size: 12px;
+    }
+
+    .play-icon {
+        width: 10px;
+        height: 10px;
     }
 }
 
@@ -453,6 +496,7 @@ body {
         transform: translateX(-50%) translateY(100px);
         opacity: 0;
     }
+
     to {
         transform: translateX(-50%) translateY(0);
         opacity: 1;
@@ -468,6 +512,7 @@ body {
         transform: translateX(-50%) translateY(0);
         opacity: 1;
     }
+
     to {
         transform: translateX(-50%) translateY(100px);
         opacity: 0;
@@ -553,6 +598,7 @@ body {
             transform: translateY(100px);
             opacity: 0;
         }
+
         to {
             transform: translateY(0);
             opacity: 1;
