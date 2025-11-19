@@ -420,10 +420,10 @@ body {
         background-color: #fff;
     }
 
-    /* @page {
+     @page {
         size: A4 portrait;
         margin: 5mm;
-    } */
+    } 
 
     .grid {
         display: flex !important;
