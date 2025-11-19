@@ -421,7 +421,7 @@ body {
     }
 
      @page {
-        size: A4 landscape; /*landscape portrait*/
+        size: A4 portrait; /*landscape portrait*/
         margin: 5mm;
     } 
 
