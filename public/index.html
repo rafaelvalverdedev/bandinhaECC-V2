@@ -21,7 +21,6 @@
     <!-- Configura a escala inicial e largura da viewport (importante para mobile). -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-
     <meta property="og:title" content="Programação Bandinha ECC" />
     <meta property="og:description" content="Programação da Bandinha ECC de Serrinha - Com áudio e letra das músicas" />
     <meta property="og:image" content="https://bandinhaecc-v2.vercel.app/assets/logo.png" />
@@ -56,11 +55,10 @@
         O "aria-live='polite'" permite leitores de tela atualizarem o conteúdo
         dinamicamente sem interromper o usuário (importante para acessibilidade).
     -->
-    <main> 
-        
-<div id="grid" class="grid" aria-live="polite"></div>
-        
-    </main>
+  <main class="app">
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </main>
+
 
     <!-- ===================================================================
          MODAL DO PLAYER DE ÁUDIO
@@ -149,7 +147,10 @@
         1. letras-musicas.js → contém o array LETRAS (letras das músicas)
         2. musicas.js → contém o array COLUMNS (estrutura da programação)
         3. main.js → ponto de entrada, que importa o
-
+-->
+  <script src="./musicas.js"></script>
+  <script src="./letras-musicas.js"></script>
+  <script src="./app.js" defer></script>
 </body>
 
 </html>
