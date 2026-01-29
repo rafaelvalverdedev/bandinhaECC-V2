@@ -420,10 +420,10 @@ body {
         background-color: #fff;
     }
 
-    /* @page {
-        size: A4 portrait;
+     @page {
+        size: A4 portrait; /*landscape portrait*/
         margin: 5mm;
-    } */
+    } 
 
     .grid {
         display: flex !important;
