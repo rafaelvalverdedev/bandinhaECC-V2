@@ -77,7 +77,7 @@ const COLUMNS = [
       {
         "type": "note",
         "id": "sx-note-1",
-        "label": "SEJAM BEM VINDOS AO 8º ECC DE SERRINHA"
+        "label": "SEJAM BEM VINDOS AO 9º ECC DE SERRINHA"
       },
       {
         "id": "sx-08",
